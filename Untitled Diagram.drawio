@@ -385,7 +385,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="nDbJlwMsWSkX9YPivbgv-127" value="&lt;ul&gt;&lt;li&gt;Each Employee can have more than one supervisor&amp;nbsp;&lt;/li&gt;&lt;li&gt;Value 2&lt;/li&gt;&lt;li&gt;Value 3&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+        <mxCell id="nDbJlwMsWSkX9YPivbgv-127" value="&lt;ul&gt;&lt;li&gt;Each Employee can have more than one supervisor&amp;nbsp;&lt;/li&gt;&lt;li&gt;Database can utilize type money&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
           <mxGeometry x="520" y="870" width="310" height="80" as="geometry" />
         </mxCell>
         <mxCell id="nDbJlwMsWSkX9YPivbgv-129" value="Additional Assumptions" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
