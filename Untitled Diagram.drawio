@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.10">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="2350" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="2830" dy="1026" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,10 +17,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="nDbJlwMsWSkX9YPivbgv-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Homework 1&lt;/h1&gt;&lt;div&gt;&lt;div&gt;Kristen Brunngraber&lt;/div&gt;&lt;div&gt;2025SP DATA &amp;amp; INFO MGT (CIDM-6350-70)&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="295" width="260" height="90" as="geometry" />
+          <mxGeometry x="320" y="10" width="250" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="nDbJlwMsWSkX9YPivbgv-5" value="&lt;ul&gt;&lt;li&gt;&lt;b&gt;Save as a PDF and upload&lt;/b&gt;&lt;/li&gt;&lt;li&gt;Stellar is an auditing firm. Your database is required to keep track of all employees, projects, departments and suppliers (hint: this statement should give you an idea about the entities you are working with)&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Every Employee has a unique number (Employee ID) assigned by the firm and must also store their Name, Date of Birth and Job Title.&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Some employees act as supervisors. A supervisor must supervise at least one employee; however, they usually supervise more. If an employee is a supervisor, you must store their Supervisor ID. (hint: does this statement tell you anything about type of relation and the cardinalities? (Check CH 2 slide #4, #25, #26 and #29)&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Every employee is assigned to work at least one Project. However, there may be projects not worked on by any employee. And a Project must store the Project ID and Estimated Cost.&lt;/li&gt;&lt;li&gt;Every employee must belong to only one Department. A Department can have one or more employees. Each Department has a Department_ID and Phone Number.&lt;/li&gt;&lt;li&gt;A Supplier usually supplies each department with their necessary work items. You must store a Suppliers’ Vendor ID and Address.&lt;/li&gt;&lt;ul&gt;&lt;li&gt;A department may not rely on any supplier or multiple suppliers for their items; however, a supplier must supply items to at least one department.&lt;/li&gt;&lt;li&gt;If a supplier provides items to a department, you must store the date the transaction took place&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&amp;nbsp;Hint 1: what entity is best suited to capture information only if it takes place. check Ch 2 slide #37 and #38.&lt;/li&gt;&lt;li&gt;Hint 2: What are the cardinalities for this relation&lt;/li&gt;&lt;li&gt;Hint 3: Given the cardinalities what is the representation style of this particular entity&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
-          <mxGeometry x="-20" y="750" width="500" height="460" as="geometry" />
+        <mxCell id="nDbJlwMsWSkX9YPivbgv-5" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Database required to keep track of all employees, projects, departments and suppliers&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Employees&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Every Employee has a unique number (Employee ID)&lt;/li&gt;&lt;li&gt;Must also store their Name, Date of Birth and Job Title.&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Supervisors&lt;/span&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Some employees act as supervisors.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;A supervisor must supervise at least one employee; however, they usually supervise more.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;If an employee is a supervisor, you must store their Supervisor ID.&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Projects&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Every employee is assigned to work at least one Project. However, there may be projects not worked on by any employee.&amp;nbsp;&lt;/li&gt;&lt;li&gt;Project must store the Project ID and Estimated Cost.&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Departments&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Every employee must belong to only one Department.&amp;nbsp;&lt;/li&gt;&lt;li&gt;A Department can have one or more employees.&amp;nbsp;&lt;/li&gt;&lt;li&gt;Each Department has a Department_ID and Phone Number.&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Suppliers&lt;/li&gt;&lt;ul&gt;&lt;li&gt;A Supplier usually supplies each department with their necessary work items.&amp;nbsp;&lt;/li&gt;&lt;li&gt;Must store a Suppliers’ Vendor ID and Address.&lt;/li&gt;&lt;li&gt;A department may not rely on any supplier or multiple suppliers for their items; however, a supplier must supply items to at least one department.&lt;/li&gt;&lt;li&gt;If a supplier provides items to a department, you must store the date the transaction took place&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="10" y="710" width="470" height="390" as="geometry" />
         </mxCell>
         <mxCell id="nDbJlwMsWSkX9YPivbgv-6" value="Employees" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="120" width="280" height="200" as="geometry" />
@@ -91,7 +91,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="nDbJlwMsWSkX9YPivbgv-13" value="Projects" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="39" y="360" width="321" height="120" as="geometry" />
+          <mxGeometry x="39" y="360" width="321" height="160" as="geometry" />
         </mxCell>
         <mxCell id="nDbJlwMsWSkX9YPivbgv-14" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="nDbJlwMsWSkX9YPivbgv-13">
           <mxGeometry y="30" width="321" height="30" as="geometry" />
@@ -101,26 +101,26 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nDbJlwMsWSkX9YPivbgv-16" value="Project ID " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" vertex="1" parent="nDbJlwMsWSkX9YPivbgv-14">
+        <mxCell id="nDbJlwMsWSkX9YPivbgv-16" value="Project ID int NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" vertex="1" parent="nDbJlwMsWSkX9YPivbgv-14">
           <mxGeometry x="30" width="291" height="30" as="geometry">
             <mxRectangle width="291" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nDbJlwMsWSkX9YPivbgv-17" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="nDbJlwMsWSkX9YPivbgv-13">
-          <mxGeometry y="60" width="321" height="60" as="geometry" />
+          <mxGeometry y="60" width="321" height="100" as="geometry" />
         </mxCell>
         <mxCell id="nDbJlwMsWSkX9YPivbgv-18" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="nDbJlwMsWSkX9YPivbgv-17">
-          <mxGeometry width="30" height="60" as="geometry">
-            <mxRectangle width="30" height="60" as="alternateBounds" />
+          <mxGeometry width="30" height="100" as="geometry">
+            <mxRectangle width="30" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nDbJlwMsWSkX9YPivbgv-19" value="Estimated Cost money NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="nDbJlwMsWSkX9YPivbgv-17">
-          <mxGeometry x="30" width="291" height="60" as="geometry">
-            <mxRectangle width="291" height="60" as="alternateBounds" />
+          <mxGeometry x="30" width="291" height="100" as="geometry">
+            <mxRectangle width="291" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nDbJlwMsWSkX9YPivbgv-20" value="Departments" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="360" width="360" height="180" as="geometry" />
+          <mxGeometry x="440" y="360" width="360" height="160" as="geometry" />
         </mxCell>
         <mxCell id="nDbJlwMsWSkX9YPivbgv-21" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="nDbJlwMsWSkX9YPivbgv-20">
           <mxGeometry y="30" width="360" height="30" as="geometry" />
@@ -136,20 +136,20 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="nDbJlwMsWSkX9YPivbgv-24" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="nDbJlwMsWSkX9YPivbgv-20">
-          <mxGeometry y="60" width="360" height="40" as="geometry" />
+          <mxGeometry y="60" width="360" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nDbJlwMsWSkX9YPivbgv-25" value="FK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="nDbJlwMsWSkX9YPivbgv-24">
-          <mxGeometry width="30" height="40" as="geometry">
-            <mxRectangle width="30" height="40" as="alternateBounds" />
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nDbJlwMsWSkX9YPivbgv-26" value="{Employee_ID} int NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="nDbJlwMsWSkX9YPivbgv-24">
-          <mxGeometry x="30" width="330" height="40" as="geometry">
-            <mxRectangle width="330" height="40" as="alternateBounds" />
+          <mxGeometry x="30" width="330" height="30" as="geometry">
+            <mxRectangle width="330" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nDbJlwMsWSkX9YPivbgv-97" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="nDbJlwMsWSkX9YPivbgv-20">
-          <mxGeometry y="100" width="360" height="40" as="geometry" />
+          <mxGeometry y="90" width="360" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nDbJlwMsWSkX9YPivbgv-98" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="nDbJlwMsWSkX9YPivbgv-97">
           <mxGeometry width="30" height="40" as="geometry">
@@ -162,16 +162,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="nDbJlwMsWSkX9YPivbgv-103" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="nDbJlwMsWSkX9YPivbgv-20">
-          <mxGeometry y="140" width="360" height="40" as="geometry" />
+          <mxGeometry y="130" width="360" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nDbJlwMsWSkX9YPivbgv-104" value="FK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="nDbJlwMsWSkX9YPivbgv-103">
-          <mxGeometry width="30" height="40" as="geometry">
-            <mxRectangle width="30" height="40" as="alternateBounds" />
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nDbJlwMsWSkX9YPivbgv-105" value="Vendor_ID int NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="nDbJlwMsWSkX9YPivbgv-103">
-          <mxGeometry x="30" width="330" height="40" as="geometry">
-            <mxRectangle width="330" height="40" as="alternateBounds" />
+          <mxGeometry x="30" width="330" height="30" as="geometry">
+            <mxRectangle width="330" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nDbJlwMsWSkX9YPivbgv-27" value="Suppliers" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
@@ -220,33 +220,33 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="nDbJlwMsWSkX9YPivbgv-38" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="nDbJlwMsWSkX9YPivbgv-34">
-          <mxGeometry y="60" width="321" height="40" as="geometry" />
+          <mxGeometry y="60" width="321" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nDbJlwMsWSkX9YPivbgv-39" value="FK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="nDbJlwMsWSkX9YPivbgv-38">
-          <mxGeometry width="30" height="40" as="geometry">
-            <mxRectangle width="30" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="nDbJlwMsWSkX9YPivbgv-40" value="Employee_ID int NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="nDbJlwMsWSkX9YPivbgv-38">
-          <mxGeometry x="30" width="291" height="40" as="geometry">
-            <mxRectangle width="291" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="nDbJlwMsWSkX9YPivbgv-78" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="nDbJlwMsWSkX9YPivbgv-34">
-          <mxGeometry y="100" width="321" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="nDbJlwMsWSkX9YPivbgv-79" value="&#xa;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="nDbJlwMsWSkX9YPivbgv-78">
           <mxGeometry width="30" height="60" as="geometry">
             <mxRectangle width="30" height="60" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nDbJlwMsWSkX9YPivbgv-80" value="{Subordinate_IDs} int NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="nDbJlwMsWSkX9YPivbgv-78">
+        <mxCell id="nDbJlwMsWSkX9YPivbgv-40" value="Employee_ID int NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="nDbJlwMsWSkX9YPivbgv-38">
           <mxGeometry x="30" width="291" height="60" as="geometry">
             <mxRectangle width="291" height="60" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="nDbJlwMsWSkX9YPivbgv-78" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="nDbJlwMsWSkX9YPivbgv-34">
+          <mxGeometry y="120" width="321" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nDbJlwMsWSkX9YPivbgv-79" value="&#xa;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" vertex="1" parent="nDbJlwMsWSkX9YPivbgv-78">
+          <mxGeometry width="30" height="80" as="geometry">
+            <mxRectangle width="30" height="80" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nDbJlwMsWSkX9YPivbgv-80" value="{Subordinate_IDs} int NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="nDbJlwMsWSkX9YPivbgv-78">
+          <mxGeometry x="30" width="291" height="80" as="geometry">
+            <mxRectangle width="291" height="80" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="nDbJlwMsWSkX9YPivbgv-41" value="Transaction" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="600" width="320" height="200" as="geometry" />
+          <mxGeometry x="480" y="560" width="320" height="200" as="geometry" />
         </mxCell>
         <mxCell id="nDbJlwMsWSkX9YPivbgv-42" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="nDbJlwMsWSkX9YPivbgv-41">
           <mxGeometry y="30" width="320" height="30" as="geometry" />
@@ -361,7 +361,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nDbJlwMsWSkX9YPivbgv-96" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;rounded=0;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endFill=0;" edge="1" parent="1" source="nDbJlwMsWSkX9YPivbgv-7" target="nDbJlwMsWSkX9YPivbgv-24">
+        <mxCell id="nDbJlwMsWSkX9YPivbgv-96" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERoneToMany;rounded=0;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endFill=0;startFill=0;" edge="1" parent="1" source="nDbJlwMsWSkX9YPivbgv-7" target="nDbJlwMsWSkX9YPivbgv-24">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="650" y="370" as="sourcePoint" />
             <mxPoint x="760" y="270" as="targetPoint" />
@@ -384,6 +384,18 @@
               <mxPoint x="450" y="600" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="nDbJlwMsWSkX9YPivbgv-127" value="&lt;ul&gt;&lt;li&gt;Each Employee can have more than one supervisor&amp;nbsp;&lt;/li&gt;&lt;li&gt;Value 2&lt;/li&gt;&lt;li&gt;Value 3&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="520" y="870" width="310" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nDbJlwMsWSkX9YPivbgv-128" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=11;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="980" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nDbJlwMsWSkX9YPivbgv-129" value="Additional Assumptions" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="570" y="840" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nDbJlwMsWSkX9YPivbgv-130" value="Project Criteria" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="165" y="690" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
