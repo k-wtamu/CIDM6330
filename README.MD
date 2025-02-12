@@ -1,5 +1,6 @@
 # Integrated Smart Home, More than Just Security and Fancy Gadgets
 **Student:** Kristen Brunngraber
+
 **Class:**  2025SP SOFTWARE ARCH. (CIDM-6330-70)
 
 
