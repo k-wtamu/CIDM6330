@@ -5,7 +5,9 @@
 
 Front Page !!!!!!!!!!!
 
-#  
+
+------------------------------------------------------------------------------------------------
+
 
 Introduction 
 
@@ -29,6 +31,8 @@ If this was not a school project I would need to compare specifications and conn
 __*To scope this down for this class, I would like to focus on the software architecture for an home inventory system.*__
 
 
+------------------------------------------------------------------------------------------------
+
 
 # Contents
 
@@ -46,7 +50,10 @@ __*To scope this down for this class, I would like to focus on the software arch
         1. Feature/Package A (appropriate UML diagrams)
         2. Feature/Package N (appropriate UML diagrams)
 
+
 ------------------------------------------------------------------------------------------------
+
+
 ###  1. Requirements statements
 
 
@@ -63,6 +70,8 @@ __*To scope this down for this class, I would like to focus on the software arch
 
 
 ------------------------------------------------------------------------------------------------
+
+
 ###  2. Specifications
 
 
