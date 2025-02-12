@@ -51,19 +51,38 @@ Front matter
 - Introduction
 - Table of contents
 
+# Contents
+
+1. [Requirements statements](#Requirements-statements)
+    1. [User Stories](#User-Stories)
+    2. [Use Cases](#Use-Cases)
+    3. [Features](#Features)
+    4. [Gherkin Validation](#Gherkin-Validation)
+
+2. Specifications
+    1. [Concept](#Concept)
+    2. [UX Notes](#UX-Notes)
+    3. [Interfaces (Controls)](#Interfaces-(Controls))
+    4. [Behaviors](#Behaviors)
+        1. Feature/Package A (appropriate UML diagrams)
+        2. Feature/Package N (appropriate UML diagrams)
+5. [The Software Architect](#the-software-architect)    
+7. Continuous Improvement and the Mastery Path
+
+
 ###  Requirements statements
- - User Stories
- - Use Cases
- - Features
- - Gherkin Validation
+#### User Stories
+#### Use Cases
+#### Features
+#### Gherkin Validation
 
 ###  Specifications
- - Concept
- - UX Notes
- - Interfaces (Controls)
- - Behaviors
-    - Feature/Package A (appropriate UML diagrams)
-    - Feature/Package N (appropriate UML diagrams) …
+#### Concept
+#### UX Notes
+#### Interfaces (Controls)
+#### Behaviors
+##### Feature/Package A (appropriate UML diagrams)
+##### Feature/Package N (appropriate UML diagrams)
 
 
 
