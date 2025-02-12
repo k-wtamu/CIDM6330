@@ -30,8 +30,6 @@ __*To scope this down for this class, I would like to focus on the software arch
 
 
 
-# 
-
 # Contents
 
 1. [Requirements statements](#Requirements-statements)
