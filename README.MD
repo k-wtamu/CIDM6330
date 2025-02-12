@@ -30,17 +30,6 @@ __*To scope this down for this class, I would like to focus on the software arch
 
 
 
-
-#
-
--  SMART DRAW?
--  Since we will be working with software, please create a Github account if you do not already have one. 
--  Then, create a respository on Github that you will use for the course. I would call it CIDM6330-Spring2025
--  Within that repository, create a folder called "Assignment 1"
--  Create a file called "README.MD" and place all content for your Requirements Specification there.
--  The content must be formatted as MARKDOWN (Markdown Cheat Sheet | Markdown Guide)
-- 
-
 # 
 
 # Contents
