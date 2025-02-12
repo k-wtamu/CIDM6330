@@ -41,9 +41,6 @@ A problem for which a designed software system could assist in improving or solv
 -  Diagrams should be rendered as images that appear within the README document.
 
 
-
-
-
 ###  Requirements specification
 
 Front matter
@@ -66,9 +63,6 @@ Front matter
     4. [Behaviors](#Behaviors)
         1. Feature/Package A (appropriate UML diagrams)
         2. Feature/Package N (appropriate UML diagrams)
-5. [The Software Architect](#the-software-architect)    
-7. Continuous Improvement and the Mastery Path
-
 
 ###  Requirements statements
 #### User Stories
