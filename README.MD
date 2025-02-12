@@ -3,9 +3,9 @@
 
 **Class:**  2025SP SOFTWARE ARCH. (CIDM-6330-70)
 
-#  
-
 Front Page !!!!!!!!!!!
+
+#  
 
 Introduction 
 
@@ -31,8 +31,7 @@ __*To scope this down for this class, I would like to focus on the software arch
 
 
 
-------------------------------------------------------------------------------------------------
-
+#
 
 -  SMART DRAW?
 -  Since we will be working with software, please create a Github account if you do not already have one. 
@@ -42,7 +41,8 @@ __*To scope this down for this class, I would like to focus on the software arch
 -  The content must be formatted as MARKDOWN (Markdown Cheat Sheet | Markdown Guide)
 - 
 
-------------------------------------------------------------------------------------------------
+# 
+
 # Contents
 
 1. [Requirements statements](#Requirements-statements)
