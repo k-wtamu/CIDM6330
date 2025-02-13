@@ -212,9 +212,9 @@ TBD - placeholder, need to determine in better detail what it means to sort and 
 
 ### 1d. Gherkin Validation (Example Test Scenarios)
 
-**Feature: Store new food items in data structure/database**
+####Feature: Store new food items in data structure/database
 
-*Scenario 1:* Valid food item name non-duplicate entry
+#####Scenario 1: Valid food item name non-duplicate entry
 
 Given: The user has selected to enter in a food item name 
 
@@ -230,7 +230,7 @@ And Food item name is saved into inventory as a new record
 
 And User is given a visual confirmation that the item is saved
 
-*Scenario 2:*  Valid food item name duplicate entry - inital submission
+**Scenario 2:**  Valid food item name duplicate entry - inital submission
 
 Given: The user has selected to enter in a food item name
 
