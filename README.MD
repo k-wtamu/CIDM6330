@@ -81,6 +81,8 @@ Confirmations/Acceptance Criteria:
 - [ ] Expiration date is defined by Day, Month, Year
 
 **As a user of the basic home management system I would like to designate food items as consumed, disposed of, or in current inventory**
+
+Confirmations/Acceptance Criteria: 
 - [ ] Food items will have a designated status
 - [ ] Food item statuses include consumed, disposed of, or in current inventory
 
@@ -94,14 +96,18 @@ Confirmations/Acceptance Criteria:
 - [ ] Repeate cleaning chores should have one or more selected day(s) of the week to be repeated
 
 **As a user of the basic home management system I would like to set a new reminder after being given a reminder for daily, monthly, and quarterly cleaning chores**
-- [ ] Cleaning chores will have a designated status
-- [ ] Cleaning chores statuses include scheduled, late, or completed
 
 Confirmations/Acceptance Criteria: 
 - [ ] When a user gets a reminder, they are prompted with a choice to reschedule
 - [ ] When a user is choosing to reschedule user can also edit frequency 
 
 **As a user of the basic home management system I would like to mark chore tasks as complete**
+
+Confirmations/Acceptance Criteria: 
+- [ ] Cleaning chores will have a designated status
+- [ ] Cleaning chores statuses include scheduled, late, or completed
+
+
 
 ### Use Cases
 
@@ -124,6 +130,7 @@ Confirmations/Acceptance Criteria:
 - System saves the expiration date
 - System presents user with optional blank entry fields for Notes
 - System saves notes field if not empty
+- System sets item status to in current inventory
 - System provides verification item has been saved to inventory
 
 **Name: Update Food Item**
