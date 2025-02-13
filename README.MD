@@ -217,20 +217,14 @@ TBD - placeholder, need to determine in better detail what it means to sort and 
 ##### Scenario 1: Valid food item name non-duplicate entry
 
 Given: The user has selected to enter in a food item name 
-
 And the name does not already appear in the inventory
-
 When: User enters a item name with charecter length is greater than 3 
-
 And charecter length is less than 50
-
 Then:  Food item name check against inventoty list passes
-
 And Food item name is saved into inventory as a new record 
-
 And User is given a visual confirmation that the item is saved
 
-**Scenario 2:**  Valid food item name duplicate entry - inital submission
+##### Scenario 2:  Valid food item name duplicate entry - inital submission
 
 Given: The user has selected to enter in a food item name
 
@@ -245,7 +239,7 @@ Then:  Food item name check against inventoty list fails
 And User is given a choice to add new duplicate item or cancel adding a duplicate food item
 
 
-*Scenario 2a:*  Valid food item name duplicate entry - user decideds to cancel new food item
+##### Scenario 2a: Valid food item name duplicate entry - user decideds to cancel new food item
 
 Given: User is trying to add a duplicate food item 
 
@@ -256,7 +250,7 @@ When: User selects canceling adding the new item
 Then: User is given a visual confirmation that adding the food item has been cancelled
 
 
-*Scenario 2b:*  Valid food item name duplicate entry - user decideds to add duplicate new food item
+##### Scenario 2b: Valid food item name duplicate entry - user decideds to add duplicate new food item
 
 Given: User is trying to add a duplicate food item 
 
@@ -269,7 +263,7 @@ Then: Food item name is saved into inventory as a new record
 And User is given a visual confirmation that the item is saved
 
 
-*Scenario 3:* Invalid food item name - too few charecters
+##### Scenario 3: Invalid food item name - too few charecters
 
 Given: The user has selected to enter in a food item name 
 
@@ -280,7 +274,7 @@ When: User enters a item name with charecter length is less than 3
 Then: User is given a visual invalid Food Name warning 
 
 
-*Scenario 4:* Invalid food item name - too many charecters
+##### Scenario 4: Invalid food item name - too many charecters
 
 Given: The user has selected to enter in a food item name 
 
