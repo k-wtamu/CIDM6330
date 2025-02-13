@@ -322,9 +322,11 @@ Then: User is given a visual invalid Food Name warning
 ### 2c. Interfaces (Controls)
 
 #### Interfaces
+
 | Interface | Description |
 | ----------- | ----------- |
-| Interface 1 | Description 2 |
+| External Interface to User | Interface will prompt and accept input from user |
+| Interface Between Application and System Hosted on | Interface requirements include input, output, storage, date information, CPU, |
 
 
 #### 
