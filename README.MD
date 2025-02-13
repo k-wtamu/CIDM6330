@@ -1,5 +1,6 @@
 # Home Food Manangement System ~Integrated Smart Home, More than Just Security and Fancy Gadgets~
 ** Assignment 1 Note:** ==For this week, I striked through changes from last week and highlighted new details to descope the projected from an entire home system to just focusing on one aspect of a household to make this a little more achiveable this semester, at the next submission I will just remove them.==
+
 **Student:** Kristen Brunngraber
 
 **Class:**  2025SP SOFTWARE ARCH. (CIDM-6330-70)
