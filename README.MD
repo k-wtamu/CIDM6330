@@ -100,7 +100,9 @@ Confirmations/Acceptance Criteria:
 ### Use Cases
 
 **Name: Enter new Food Item**
+
 **Identifier: UC-1**
+
 **Base Course of Action**
 - User selects system function (example selects a button) for entering in a new food item to track
 - System pesents user with mandatory blank entry fields for Item Name (Free text), Item location (dropdown), Expiration date (Date field)
@@ -119,7 +121,9 @@ Confirmations/Acceptance Criteria:
 - System provides verification item has been saved to inventory
 
 **Name: Update Food Item**
+
 **Identifier: UC-2**
+
 **Base Course of Action**
 - User selects Food item to update from list of items in inventory
 - System displays food item details: Item name, Item location, Epiration date, Notes
@@ -130,9 +134,9 @@ Confirmations/Acceptance Criteria:
 - System provides verification item has been updated or changes have been discarded
 - System displays list of items
 
-**Name:  Enter Cleaning Chore**
-**Identifier: UC-3**
-**Base Course of Action** 
+**Name:  Enter Cleaning Chore** 
+**Identifier: UC-3** 
+**Base Course of Action**  
 - User selects system function (example selects a button) for entering in a new cleaning chore
 - System pesents user with mandatory blank entry fields for Chore Name (Free text), Chore location (dropdown), Chore date (Date field)
 - User enters in the cleaning chore name
@@ -149,9 +153,9 @@ Confirmations/Acceptance Criteria:
 - System saves notes field if not empty
 - System provides verification cleaning chore has been saved to management system
 
-**Name: Update Cleaning Chore**
-**Identifier: UC-4**
-**Base Course of Action** 
+**Name: Update Cleaning Chore** 
+**Identifier: UC-4** 
+**Base Course of Action**  
 - User
 - System
 - User
@@ -160,12 +164,16 @@ Confirmations/Acceptance Criteria:
 
 #### Features
 
-**Inventory Database**
+**Food Inventory Database**
 - Store 
 - 
 - 
 
 **Cleaning chores/tasks Database**
+- Store 
+- 
+- 
+
 
 **Item Entry User Interface** 
 - 
