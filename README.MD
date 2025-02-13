@@ -60,7 +60,7 @@ __*To scope this down for this class, I am focusing on the software architecture
 ##  1. Requirements statements
 
 
-### User Stories
+### 1a. User Stories
 
 **As a user of the basic home management system I would like to have reminders for when food is expiring**
 
@@ -109,7 +109,7 @@ Confirmations/Acceptance Criteria:
 
 
 
-### Use Cases
+### 1b.Use Cases
 
 **Name: Enter new Food Item**
 
@@ -188,7 +188,7 @@ TBD - placeholder, need to determine in better detail what it means to sort and 
 **Base Course of Action**  
 TBD - placeholder, need to determine in better detail what it means to sort and group tasks by date, location, alphabetically etc. and determine if I want to add in a priority function
 
-#### Features
+### 1c. Features
 
 **Food Inventory Database (FID)**
 - Store new food items in data structure/database
@@ -210,7 +210,7 @@ TBD - placeholder, need to determine in better detail what it means to sort and 
 - Set and upate chore/task status
 
 
-#### Gherkin Validation (Example Test Scenarios)
+### 1d. Gherkin Validation (Example Test Scenarios)
 
 **Feature: Store new food items in data structure/database**
 
@@ -235,25 +235,25 @@ Then:
 ------------------------------------------------------------------------------------------------
 
 
-###  2. Specifications
+##  2. Specifications
 
 
-### Concept
+### 2a. Concept
 
 
-### UX Notes
+### 2b. UX Notes
 
 
-### Interfaces (Controls)
+### 2c. Interfaces (Controls)
 
 
-##### Behaviors
+### 2d. Behaviors
 
 
-###### Feature/Package A (appropriate UML diagrams)
+#### Feature/Package A (appropriate UML diagrams)
 
 
-###### Feature/Package N (appropriate UML diagrams)
+#### Feature/Package N (appropriate UML diagrams)
 
  Diagrams should be rendered as images that appear within the README document.
 
