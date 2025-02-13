@@ -1,4 +1,4 @@
-# Home Food Manangement System ~Integrated Smart Home, More than Just Security and Fancy Gadgets~
+# Home Food and Chore Manangement System ~Integrated Smart Home, More than Just Security and Fancy Gadgets~
 **Assignment 1 Note:** For this week, I striked through changes from last week and <mark>highlighted new details</mark> to descope the projected from an entire home system to just focusing on one aspect of a household to make this a little more achiveable this semester, at the next submission I will just remove them.
 
 **Student:** Kristen Brunngraber
@@ -77,19 +77,20 @@ Confirmations/Acceptance Criteria:
 - [ ] Food items can be viewed categorized by location
 - [ ] Food items can be viewed in alphebetical order
 - [ ] Food items can be viewed in order of expiration date; sorted by both nearest and farthest expiration in relation to the current date 
-- [ ] Expiration date is defined by Day, Month, Year 
-
+- [ ] Expiration date is defined by Day, Month, Year
 
 3) As a user of the basic home management system I would like to have reminders for daily, monthly, and quarterly cleaning chores 
 
 Confirmations/Acceptance Criteria: 
-- [ ] Cleaning chores can be categorized as daily, monthly, or quarterly tasks
-- [ ] Cleaning chores should be 
+- [ ] Cleaning chores should have a task due date
+- [ ] Cleaning chores can be set as stand alone events or repeat tasks
+- [ ] Repeate cleaning chores can be set as daily, weekly, monthly, or quarterly tasks
+- [ ] Repeate cleaning chores should have one or more selected day(s) of the week to be repeated
 
 4) As a user of the home food management system I would like to set a new reminder after being given a reminder for daily, monthly, and quarterly cleaning
 
 Confirmations/Acceptance Criteria: 
-- [ ]
+- [ ] When a user gets a reminder, they are prompted with a choice to reschedule
 - [ ]
 - [ ]
 
@@ -119,8 +120,14 @@ Base Course of Action
 ##### Name: Update Food Item
 Identifier: UC-2
 Base Course of Action 
-- User
-- System
+- User selects Food item to update from list of items in inventory
+- System displays food item details: Item name, Item location, Epiration date, Notes
+- User selects field to edit
+- System increases edit area for user to detail changes and displays an save or discard changes function to user
+- User edits field and selects save or discard
+- System saves updated infromation if save is selected, or discards changes if discard is selected
+- System provides verification item has been updated or changes have been discarded
+- System displays list of items
 
 ##### Name:  Enter Cleaning Chore
 Identifier: UC-3
