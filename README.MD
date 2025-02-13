@@ -64,6 +64,7 @@ __*To scope this down for this class, I am focusing on the software architecture
 #### User Stories
 
 1) As a user of the basic home management system I would like to have reminders for when food is expiring 
+
 Confirmations/Acceptance Criteria: 
 - [ ] Items with a best buy date will have the date stored as the expiration date
 - [ ] Food locations are defined as either Pantry, Refrigerator, or Freezer
@@ -72,6 +73,7 @@ Confirmations/Acceptance Criteria:
 - [ ] All foods will have a designated expiration date
 
 2) As a user of the home food management system I would like to view all current food items stored in the system
+
 Confirmations/Acceptance Criteria: 
 - [ ] Food items can be viewed categorized by location
 - [ ] Food items can be viewed in alphebetical order
@@ -80,21 +82,24 @@ Confirmations/Acceptance Criteria:
 
 
 3) As a user of the basic home management system I would like to have reminders for daily, monthly, and quarterly cleaning chores 
+
 Confirmations/Acceptance Criteria: 
 - [ ] Cleaning chores can be categorized as daily, monthly, or quarterly tasks
 - [ ] Cleaning chores should be 
 
 4) As a user of the home food management system I would like to set a new reminder after being given a reminder for daily, monthly, and quarterly cleaning
+
 Confirmations/Acceptance Criteria: 
+- [ ]
+- [ ]
 - [ ]
 
 
 
 #### Use Cases
 
-1) Enter new Food Item
-Name
-Identifier:
+##### Name: Enter new Food Item
+Identifier: UC-1
 Base Course of Action 
 - User selects system function (example selects a button) for entering in a new food item to track
 - System pesents user with mandatory blank entry fields for Item Name (Free text), Item location (dropdown), Expiration date (Date field)
@@ -112,16 +117,23 @@ Base Course of Action
 - System saves notes field if not empty
 - System provides verification item has been saved to inventory
 
-2) 
-Name
-Identifier:
+##### Name: Update Food Item
+Identifier: UC-2
 Base Course of Action 
+- User
+- System
 
-3) 
-Name
-Identifier:
+##### Name:  Enter Cleaning Chore
+Identifier: UC-3
 Base Course of Action 
+- User
+- System
 
+##### Name: Update Cleaning Chore
+Identifier: UC-4
+Base Course of Action 
+- User
+- System
 
 
 #### Features
