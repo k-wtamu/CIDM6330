@@ -62,7 +62,7 @@ __*To scope this down for this class, I am focusing on the software architecture
 
 ### User Stories
 
-1) As a user of the basic home management system I would like to have reminders for when food is expiring 
+**As a user of the basic home management system I would like to have reminders for when food is expiring**
 
 Confirmations/Acceptance Criteria: 
 - [ ] Items with a best buy date will have the date stored as the expiration date
@@ -71,7 +71,7 @@ Confirmations/Acceptance Criteria:
 - [ ] A reminder will be sent two days before for items in the refrigerator
 - [ ] All foods will have a designated expiration date
 
-2) As a user of the home food management system I would like to view all current food items stored in the system
+**As a user of the home food management system I would like to view all current food items stored in the system**
 
 Confirmations/Acceptance Criteria: 
 - [ ] Food items can be viewed categorized by location
@@ -79,28 +79,29 @@ Confirmations/Acceptance Criteria:
 - [ ] Food items can be viewed in order of expiration date; sorted by both nearest and farthest expiration in relation to the current date 
 - [ ] Expiration date is defined by Day, Month, Year
 
-3) As a user of the basic home management system I would like to have reminders for daily, monthly, and quarterly cleaning chores 
+**As a user of the basic home management system I would like to have reminders for daily, monthly, and quarterly cleaning chores**
 
 Confirmations/Acceptance Criteria: 
 - [ ] Cleaning chores should have a task due date
 - [ ] Cleaning chores can be set as stand alone events or repeat tasks
+- [ ] Cleaning chores have a location assigned to include bathroom, living room, kitchen, bedroom, gargage, garden, etc. 
 - [ ] Repeate cleaning chores can be set as daily, weekly, monthly, or quarterly tasks
 - [ ] Repeate cleaning chores should have one or more selected day(s) of the week to be repeated
 
-4) As a user of the home food management system I would like to set a new reminder after being given a reminder for daily, monthly, and quarterly cleaning
+**As a user of the home food management system I would like to set a new reminder after being given a reminder for daily, monthly, and quarterly cleaning**
 
 Confirmations/Acceptance Criteria: 
 - [ ] When a user gets a reminder, they are prompted with a choice to reschedule
 - [ ]
 - [ ]
-
+- [ ]
 
 
 ### Use Cases
 
-##### Name: Enter new Food Item
-Identifier: UC-1
-Base Course of Action 
+**Name: Enter new Food Item**
+**Identifier: UC-1**
+**Base Course of Action**
 - User selects system function (example selects a button) for entering in a new food item to track
 - System pesents user with mandatory blank entry fields for Item Name (Free text), Item location (dropdown), Expiration date (Date field)
 - User enters in the Item name
@@ -117,9 +118,9 @@ Base Course of Action
 - System saves notes field if not empty
 - System provides verification item has been saved to inventory
 
-##### Name: Update Food Item
-Identifier: UC-2
-Base Course of Action 
+**Name: Update Food Item**
+**Identifier: UC-2**
+**Base Course of Action**
 - User selects Food item to update from list of items in inventory
 - System displays food item details: Item name, Item location, Epiration date, Notes
 - User selects field to edit
@@ -129,20 +130,54 @@ Base Course of Action
 - System provides verification item has been updated or changes have been discarded
 - System displays list of items
 
-##### Name:  Enter Cleaning Chore
-Identifier: UC-3
-Base Course of Action 
+**Name:  Enter Cleaning Chore**
+**Identifier: UC-3**
+**Base Course of Action** 
+- User selects system function (example selects a button) for entering in a new cleaning chore
+- System pesents user with mandatory blank entry fields for Chore Name (Free text), Chore location (dropdown), Chore date (Date field)
+- User enters in the cleaning chore name
+- System verifies the cleaning chore name field is not blank
+- System saves the cleaning chore name
+- User selects the cleaning chore location
+- System verifies the cleaning chore location field is not blank
+- System saves the cleaning chore location
+- User enters/selects the cleaning chore date
+- System verifies the cleaning chore  date field is not blank
+- System verifies the cleaning chore date is not before todays date
+- System saves the cleaning chore date
+- System presents user with optional blank entry fields for Notes
+- System saves notes field if not empty
+- System provides verification cleaning chore has been saved to management system
+
+**Name: Update Cleaning Chore**
+**Identifier: UC-4**
+**Base Course of Action** 
 - User
 - System
-
-##### Name: Update Cleaning Chore
-Identifier: UC-4
-Base Course of Action 
 - User
 - System
 
 
 #### Features
+
+**Inventory Database**
+- Store 
+- 
+- 
+
+**Cleaning chores/tasks Database**
+
+**Item Entry User Interface** 
+- 
+- 
+- 
+ 
+
+**Cleaning Chore Task User Interface** 
+- 
+- 
+- 
+
 
 
 #### Gherkin Validation
