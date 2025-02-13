@@ -346,7 +346,7 @@ Adults whom do not have enough money to pay for an assistant to help manage thei
 
 ##### Use Case Diagram
 
-![This is an alt text.](/Assignment%201/UseCaseDiagramFoodItems.PNG "This is a sample image.")
+(/Assignment%201/UseCaseDiagramFoodItems.PNG "This is a Use Case Diagram")
 
 
 
