@@ -1,5 +1,5 @@
 # Home Food Manangement System ~Integrated Smart Home, More than Just Security and Fancy Gadgets~
-** Assignment 1 Note:** For this week, I striked through changes from last week and ==highlighted new details== to descope the projected from an entire home system to just focusing on one aspect of a household to make this a little more achiveable this semester, at the next submission I will just remove them.
+** Assignment 1 Note:** For this week, I striked through changes from last week and <mark>highlighted new details</mark> to descope the projected from an entire home system to just focusing on one aspect of a household to make this a little more achiveable this semester, at the next submission I will just remove them.
 
 **Student:** Kristen Brunngraber
 
@@ -30,9 +30,9 @@ I don’t need total efficiency in my life, but it would *(to reference the assi
 If this was not a school project I would need to compare specifications and connection between currently available smart home devices and understand the legal feasibility of collecting and utilizing the needed data from the smart devices. Because my knowledge of current smart home devices is limited, I would need a lot of research into the currently and upcoming smart home appliances/systems. I would also need more about how inventory tracking systems store data, and research ones that are already available. Some [initial research](https://www.nerdwallet.com/article/insurance/home-inventory-app-template) looks like there are home inventory systems that utilize barcode scanning and [additional *“research”*](https://www.reddit.com/r/selfhosted/comments/sm2hih/home_inventory_management_system_ideas/) shows there are “web-based self-hosted groceries & household management solution for your home” through ERP solutions such as [Grocy.](https://grocy.info/) I would also look for tools that utilize images and sensors to identify products like Amazons [“Just Walk Out technology”](https://www.aboutamazon.com/news/retail/amazon-just-walk-out-rfid-technology). I’m pretty sure at the airport recently, there was a small convenience store you placed your items on a large table scanner and scale that determined what item you were trying to buy. As this technology gets cheaper and more reasonable to have in your home there is even more potential.~~
 
 
-==__*To scope this down for this class, I am focusing on the software architecture of a home task and maintenance management system.*__==
+__*To scope this down for this class, I am focusing on the software architecture of a home task and maintenance management system.*__
 
-This prototype would be a basic home management system to send prescheduled and suggested tasks and inventory reminders to the user to check off as complete or schedule for later. Task and maintenance will be limited in this initial design to food and cleaning type household responsibilities. Eating and cleaning are two of the most basic functions in the household, and this projects protype will start here.
+<makrk> This prototype would be a basic home management system to send prescheduled and suggested tasks and inventory reminders to the user to check off as complete or schedule for later. Task and maintenance will be limited in this initial design to food and cleaning type household responsibilities. Eating and cleaning are two of the most basic functions in the household, and this projects protype will start here. </mark>
 
 
 ------------------------------------------------------------------------------------------------
