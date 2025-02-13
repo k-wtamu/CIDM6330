@@ -45,7 +45,7 @@ __*To scope this down for this class, I am focusing on the software architecture
     3. [Features] 
     4. [Gherkin Validation] 
 
-2. Specifications (#Specifications)
+2. [Specifications](#Specifications)
     1. [Concept] 
     2. [UX Notes] 
     3. [Interfaces (Controls)] 
@@ -296,8 +296,16 @@ Then: User is given a visual invalid Food Name warning
 
 ## Specifications
 
-
 ### 2a. Concept
+
+#### Purpose
+Home Food and Chore Management System will provide a basic management system with an easy to use interface 
+
+#### Goal
+Release working management system with basic features and build additional features to track and manage additional household duties. Ensure the application usage does not create unreasonable additional work for the user. 
+
+#### Target Users
+Adults whom do not have enough money to pay for an assitant to help manage their daily lives. Users whom want to simplify their task tracking 
 
 
 ### 2b. UX Notes
@@ -326,10 +334,9 @@ Then: User is given a visual invalid Food Name warning
 | Interface | Description |
 | ----------- | ----------- |
 | External Interface to User | Interface will prompt and accept input from user |
-| Interface Between Application and System Hosted on | Interface requirements include input, output, storage, date information, CPU, |
+| Interface Between Application and System Hosted on | Interface requirements include data input, data output, data storage, date information, CPU, etc. |
 
 
-#### 
 
 ### 2d. Behaviors
 
