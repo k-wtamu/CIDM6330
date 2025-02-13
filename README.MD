@@ -60,7 +60,7 @@ __*To scope this down for this class, I am focusing on the software architecture
 ##  Requirements Statements
 
 
-### 1. User Stories
+### 1a. User Stories
 
 **As a user of the basic home management system I would like to have reminders for when food is expiring**
 
@@ -294,7 +294,7 @@ Then: User is given a visual invalid Food Name warning
 ------------------------------------------------------------------------------------------------
 
 
-##  2. Specifications
+##  Specifications
 
 
 ### 2a. Concept
