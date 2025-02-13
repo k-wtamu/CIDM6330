@@ -39,8 +39,8 @@ __*To scope this down for this class, I am focusing on the software architecture
 
 ## Contents
 
-1. [Requirements statements](#1.-Requirements-Statements)
-    1. [User Stories](#1a.-User-Stories)
+1. [Requirements statements](#Requirements-Statements)
+    1. [User Stories](#User-Stories-1)
     2. [Use Cases](#1b.-Use-Cases)
     3. [Features](#1c.-Features)
     4. [Gherkin Validation](#1d.-Gherkin-Validation-(Example-Test-Scenarios))
@@ -57,10 +57,10 @@ __*To scope this down for this class, I am focusing on the software architecture
 ------------------------------------------------------------------------------------------------
 
 
-##  1. Requirements Statements
+##  Requirements Statements
 
 
-### 1a. User Stories
+### 1. User Stories
 
 **As a user of the basic home management system I would like to have reminders for when food is expiring**
 
