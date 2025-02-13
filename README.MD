@@ -58,8 +58,8 @@ __*To scope this down for this class, I would like to focus on the software arch
 
 
 #### User Stories
-
-
+- [x] W 
+- [ ] W 
 #### Use Cases
 
 
