@@ -210,12 +210,17 @@ TBD - placeholder, need to determine in better detail what it means to sort and 
 
 **Feature: Store new food items in data structure/database**
 
-Scenario 1:  Valid food item name 
+Scenario 1:  Valid food item name non-duplicate entry 
+Given: The user has selected to enter in a food item name and the name does not already appear in the inventory
+When:  User enters a item name with charecter length between 3 and 50
+Then:  Food item name is checked against inventoty list && Food item name is saved into inventory as a new record && User is given a visual confirmation that the item is saved
+
+Scenario 1:  Valid food item name duplicate entry 
 Given: The user has selected to enter in a food item name
 When:  User enters a item name with charecter length between 3 and 50
 Then:  Food item name is saved into inventory as a new record, 
 
-Scenario 2: Invalid food item name 
+Scenario 3: Invalid food item name 
 Given: 
 When: less than 3 or greater than 50
 Then: 
