@@ -40,7 +40,7 @@ __*To scope this down for this class, I am focusing on the software architecture
 ## Contents
 
 1. [Requirements statements](#Requirements-Statements)
-    1. [User Stories](#User-Stories-1)
+    1. [User Stories](#1.-User-Stories)
     2. [Use Cases](#1b.-Use-Cases)
     3. [Features](#1c.-Features)
     4. [Gherkin Validation](#1d.-Gherkin-Validation-(Example-Test-Scenarios))
