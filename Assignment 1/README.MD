@@ -305,7 +305,7 @@ Home Food and Chore Management System will provide a basic management system wit
 Release working management system with basic features and build additional features to track and manage additional household duties. Ensure the application usage does not create unreasonable additional work for the user. 
 
 #### Target Users
-Adults whom do not have enough money to pay for an assitant to help manage their daily lives. Users whom want to simplify their task tracking 
+Adults whom do not have enough money to pay for an assistant to help manage their daily lives. Users whom want to simplify their task tracking 
 
 
 ### 2b. UX Notes
@@ -318,9 +318,9 @@ Adults whom do not have enough money to pay for an assitant to help manage their
     - text and background contrast
     - text alignment
     - line height
-    - consistant letter spacing
-- Provide user with a continous navigation experience 
-- Both web and mobile applications keep to same theme and simmilar naviagtion 
+    - consistent letter spacing
+- Provide user with a continuous navigation experience 
+- Both web and mobile applications keep to same theme and similar navigation 
 
 #### System May
 - Provide text to voice
@@ -346,6 +346,8 @@ Adults whom do not have enough money to pay for an assitant to help manage their
 
 ##### Use Case Diagram
 
+![This is an alt text.](/Assignment%201/UseCaseDiagramFoodItems.PNG "This is a sample image.")
+
 
 
 ##### Activity Diagram
@@ -354,4 +356,4 @@ Adults whom do not have enough money to pay for an assitant to help manage their
 
 
  
-
+ 
