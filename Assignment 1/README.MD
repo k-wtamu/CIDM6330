@@ -353,6 +353,7 @@ Adults whom do not have enough money to pay for an assistant to help manage thei
 ##### Activity Diagram
 
 
+![This is a Activity Diagram](/Assignment%201/ActivityDiagramFoodItems.PNG "This is a Activity Diagram")
 
 
  
