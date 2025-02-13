@@ -302,6 +302,22 @@ Then: User is given a visual invalid Food Name warning
 
 ### 2b. UX Notes
 
+#### System Shall
+- Pass user acceptance testing
+- Utilize industry standard for readability
+    - font size
+    - font style
+    - text and background contrast
+    - text alignment
+    - line height
+    - consistant letter spacing
+- Provide user with a continous navigation experience 
+- Both web and mobile applications keep to same theme and simmilar naviagtion 
+
+#### System May
+- Provide text to voice
+- Allow user to change color scheme to "dark mode"
+- 
 
 ### 2c. Interfaces (Controls)
 
@@ -309,10 +325,16 @@ Then: User is given a visual invalid Food Name warning
 ### 2d. Behaviors
 
 
-#### Feature/Package A (appropriate UML diagrams)
+#### Feature: Store new food items in data structure/database
 
 
-#### Feature/Package N (appropriate UML diagrams)
+##### Use Case Diagram
 
- Diagrams should be rendered as images that appear within the README document.
+
+
+##### Activity Diagram
+
+
+
+
  
