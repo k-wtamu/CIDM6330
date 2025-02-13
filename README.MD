@@ -74,6 +74,7 @@ Confirmations/Acceptance Criteria:
 **As a user of the home food management system I would like to view all current food items stored in the system**
 
 Confirmations/Acceptance Criteria: 
+- [ ] Food item names will be between three and 50 charecters 
 - [ ] Food items can be viewed categorized by location
 - [ ] Food items can be viewed in alphebetical order
 - [ ] Food items can be viewed in order of expiration date; sorted by both nearest and farthest expiration in relation to the current date 
@@ -92,10 +93,7 @@ Confirmations/Acceptance Criteria:
 
 Confirmations/Acceptance Criteria: 
 - [ ] When a user gets a reminder, they are prompted with a choice to reschedule
-- [ ]
-- [ ]
-- [ ]
-
+- [ ] When a user is choosing to reschedule user can also edit frequency 
 
 ### Use Cases
 
@@ -156,24 +154,44 @@ Confirmations/Acceptance Criteria:
 **Name: Update Cleaning Chore** 
 **Identifier: UC-4** 
 **Base Course of Action**  
-- User
-- System
-- User
-- System
+- User selects cleaning chore to update from list of items in schedule
+- System displays food item details: Item name, Item location, Epiration date, Notes
+- User selects field to edit
+- System increases edit area for user to detail changes and displays an save or discard changes function to user
+- User edits field and selects save or discard
+- System saves updated infromation if save is selected, or discards changes if discard is selected
+- System provides verification item has been updated or changes have been discarded
+- System displays list of items
 
+**Name: View Food Inventory List** 
+**Identifier: UC-5** 
+**Base Course of Action**  
+TBD - placeholder, need to determine in better detail what it means to sort and group Items by date, location, alphabetically etc. 
+
+**Name: View Cleaning Chores** 
+**Identifier: UC-6** 
+**Base Course of Action**  
+TBD - placeholder, need to determine in better detail what it means to sort and group tasks by date, location, alphabetically etc. and determine if I want to add in a priority function
 
 #### Features
 
-**Food Inventory Database**
-- Store 
-- 
-- 
+**Food Inventory Database (FID)**
+- Store new food items in data structure/database
+- Select a food item to modify
+- Store updated information for food items
+- Verify user inputs for new and updated food items
+- Set rules for food expiration reminders
+- Calculate reminder schedule based off item expeiration date and rules for reminders
+- Send user reminder for food expirations
 
-**Cleaning chores/tasks Database**
-- Store 
-- 
-- 
-
+**Cleaning chores/tasks Database (CD)**
+- Store new Cleaning chore/task in data structure/database
+- Select a Cleaning chore/task to modify
+- Store updated information for Cleaning chores/tasks
+- Verify user inputs for new and updated Cleaning chore/task
+- Calculate recurring reminders for cleaning chores/tasks
+- Send user reminder for cleaning chores/tasks
+- Set user 
 
 **Item Entry User Interface** 
 - 
@@ -188,7 +206,21 @@ Confirmations/Acceptance Criteria:
 
 
 
-#### Gherkin Validation
+#### Gherkin Validation (Example Test Scenarios)
+
+**Feature: Store new food items in data structure/database**
+
+Scenario 1:  Valid food item name 
+Given: The user has selected to enter in a food item name
+When:  User enters a item name with charecter length between 3 and 50
+Then:  Food item name is saved into inventory as a new record, 
+
+Scenario 2: Invalid food item name 
+Given: 
+When: less than 3 or greater than 50
+Then: 
+
+
 
 
 ------------------------------------------------------------------------------------------------
