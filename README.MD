@@ -40,16 +40,16 @@ __*To scope this down for this class, I am focusing on the software architecture
 ## Contents
 
 1. [Requirements statements](#Requirements-Statements)
-    1. [User Stories](#1.-User-Stories)
-    2. [Use Cases](#1b.-Use-Cases)
-    3. [Features](#1c.-Features)
-    4. [Gherkin Validation](#1d.-Gherkin-Validation-(Example-Test-Scenarios))
+    1. [User Stories] 
+    2. [Use Cases] 
+    3. [Features] 
+    4. [Gherkin Validation] 
 
-2. Specifications
-    1. [Concept](#2a.-Concept)
-    2. [UX Notes](#2b.-UX-Notes)
-    3. [Interfaces (Controls)](#2c.-Interfaces-(Controls))
-    4. [Behaviors](#2d.-Behaviors)
+2. Specifications (#Specifications)
+    1. [Concept] 
+    2. [UX Notes] 
+    3. [Interfaces (Controls)] 
+    4. [Behaviors] 
         1. Feature/Package A (appropriate UML diagrams)
         2. Feature/Package N (appropriate UML diagrams)
 
