@@ -32,7 +32,7 @@ If this was not a school project I would need to compare specifications and conn
 
 __*To scope this down for this class, I am focusing on the software architecture of a home task and maintenance management system.*__
 
-<makrk> This prototype would be a basic home management system to send prescheduled and suggested tasks and inventory reminders to the user to check off as complete or schedule for later. Task and maintenance will be limited in this initial design to food and cleaning type household responsibilities. Eating and cleaning are two of the most basic functions in the household, and this projects protype will start here. </mark>
+<mark> This prototype would be a basic home management system to send prescheduled and suggested tasks and inventory reminders to the user to check off as complete or schedule for later. Task and maintenance will be limited in this initial design to food and cleaning type household responsibilities. Eating and cleaning are two of the most basic functions in the household, and this projects protype will start here.</mark>
 
 
 ------------------------------------------------------------------------------------------------
