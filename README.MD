@@ -1,11 +1,11 @@
-# Home Food and Chore Manangement System ~Integrated Smart Home, More than Just Security and Fancy Gadgets~
-**Assignment 1 Note:** For this week, I striked through changes from last week and <mark>highlighted new details</mark> to descope the projected from an entire home system to just focusing on one aspect of a household to make this a little more achiveable this semester, at the next submission I will just remove them.
+# Home Food and Chore Management System ~Integrated Smart Home, More than Just Security and Fancy Gadgets~
+**Assignment 1 Note:** For this week, I striked through changes from last week and <mark>highlighted new details</mark> to descope the projected from an entire home system to just focusing on one aspect of a household to make this a little more achievable this semester, at the next submission I will just remove them.
 
 **Student:** Kristen Brunngraber
 
 **Class:**  2025SP SOFTWARE ARCH. (CIDM-6330-70)
 
-**Date:**  12 Febuary 2025
+**Date:**  12 February 2025
 
 ------------------------------------------------------------------------------------------------
 
@@ -40,16 +40,16 @@ __*To scope this down for this class, I am focusing on the software architecture
 ## Contents
 
 1. [Requirements statements](#Requirements-statements)
-    1. [User Stories](#User-Stories)
-    2. [Use Cases](#Use-Cases)
-    3. [Features](#Features)
-    4. [Gherkin Validation](#Gherkin-Validation)
+    1. [User Stories](#1a.-User-Stories)
+    2. [Use Cases](#1b.-Use-Cases)
+    3. [Features](#1c.-Features)
+    4. [Gherkin Validation](#1d.-Gherkin-Validation)
 
 2. Specifications
-    1. [Concept](#Concept)
-    2. [UX Notes](#UX-Notes)
-    3. [Interfaces (Controls)](#Interfaces-(Controls))
-    4. [Behaviors](#Behaviors)
+    1. [Concept](#2a.-Concept)
+    2. [UX Notes](#2b.-UX-Notes)
+    3. [Interfaces (Controls)](#2c.-Interfaces-(Controls))
+    4. [Behaviors](#2d.-Behaviors)
         1. Feature/Package A (appropriate UML diagrams)
         2. Feature/Package N (appropriate UML diagrams)
 
@@ -74,9 +74,9 @@ Confirmations/Acceptance Criteria:
 **As a user of the basic home management system I would like to view all current food items stored in the system**
 
 Confirmations/Acceptance Criteria: 
-- [ ] Food item names will be between three and 50 charecters 
+- [ ] Food item names will be between three and 50 characters 
 - [ ] Food items can be viewed categorized by location
-- [ ] Food items can be viewed in alphebetical order
+- [ ] Food items can be viewed in alphabetical order
 - [ ] Food items can be viewed in order of expiration date; sorted by both nearest and farthest expiration in relation to the current date 
 - [ ] Expiration date is defined by Day, Month, Year
 
@@ -91,9 +91,9 @@ Confirmations/Acceptance Criteria:
 Confirmations/Acceptance Criteria: 
 - [ ] Cleaning chores should have a task due date
 - [ ] Cleaning chores can be set as stand alone events or repeat tasks
-- [ ] Cleaning chores have a location assigned to include bathroom, living room, kitchen, bedroom, gargage, garden, etc. 
-- [ ] Repeate cleaning chores can be set as daily, weekly, monthly, or quarterly tasks
-- [ ] Repeate cleaning chores should have one or more selected day(s) of the week to be repeated
+- [ ] Cleaning chores have a location assigned to include bathroom, living room, kitchen, bedroom, garage, garden, etc. 
+- [ ] Repeat cleaning chores can be set as daily, weekly, monthly, or quarterly tasks
+- [ ] Repeat cleaning chores should have one or more selected day(s) of the week to be repeated
 
 **As a user of the basic home management system I would like to set a new reminder after being given a reminder for daily, monthly, and quarterly cleaning chores**
 
@@ -117,7 +117,7 @@ Confirmations/Acceptance Criteria:
 
 **Base Course of Action**
 - User selects system function (example selects a button) for entering in a new food item to track
-- System pesents user with mandatory blank entry fields for Item Name (Free text), Item location (dropdown), Expiration date (Date field)
+- System presents user with mandatory blank entry fields for Item Name (Free text), Item location (dropdown), Expiration date (Date field)
 - User enters in the Item name
 - System verifies the item name field is not blank
 - System saves the item name
@@ -125,7 +125,7 @@ Confirmations/Acceptance Criteria:
 - System verifies the item location field is not blank
 - System saves the item location
 - User enters/selects the item expiration date
-- System verifies the item exirpation date field is not blank
+- System verifies the item expiration date field is not blank
 - System verifies the item expiration date is not before todays date
 - System saves the expiration date
 - System presents user with optional blank entry fields for Notes
@@ -139,11 +139,11 @@ Confirmations/Acceptance Criteria:
 
 **Base Course of Action**
 - User selects Food item to update from list of items in inventory
-- System displays food item details: Item name, Item location, Epiration date, Notes
+- System displays food item details: Item name, Item location, Expiration date, Notes
 - User selects field to edit
 - System increases edit area for user to detail changes and displays an save or discard changes function to user
 - User edits field and selects save or discard
-- System saves updated infromation if save is selected, or discards changes if discard is selected
+- System saves updated information if save is selected, or discards changes if discard is selected
 - System provides verification item has been updated or changes have been discarded
 - System displays list of items
 
@@ -151,7 +151,7 @@ Confirmations/Acceptance Criteria:
 **Identifier: UC-3** 
 **Base Course of Action**  
 - User selects system function (example selects a button) for entering in a new cleaning chore
-- System pesents user with mandatory blank entry fields for Chore Name (Free text), Chore location (dropdown), Chore date (Date field)
+- System presents user with mandatory blank entry fields for Chore Name (Free text), Chore location (dropdown), Chore date (Date field)
 - User enters in the cleaning chore name
 - System verifies the cleaning chore name field is not blank
 - System saves the cleaning chore name
@@ -170,11 +170,11 @@ Confirmations/Acceptance Criteria:
 **Identifier: UC-4** 
 **Base Course of Action**  
 - User selects cleaning chore to update from list of items in schedule
-- System displays food item details: Item name, Item location, Epiration date, Notes
+- System displays food item details: Item name, Item location, Expiration date, Notes
 - User selects field to edit
 - System increases edit area for user to detail changes and displays an save or discard changes function to user
 - User edits field and selects save or discard
-- System saves updated infromation if save is selected, or discards changes if discard is selected
+- System saves updated information if save is selected, or discards changes if discard is selected
 - System provides verification item has been updated or changes have been discarded
 - System displays list of items
 
@@ -196,7 +196,7 @@ TBD - placeholder, need to determine in better detail what it means to sort and 
 - Store updated information for food items
 - Verify user inputs for new and updated food items
 - Set rules for food expiration reminders
-- Calculate reminder schedule based off item expeiration date and rules for reminders
+- Calculate reminder schedule based off item expiration date and rules for reminders
 - Send user reminder for food expirations
 - Set and update item status
 
@@ -207,7 +207,7 @@ TBD - placeholder, need to determine in better detail what it means to sort and 
 - Verify user inputs for new and updated Cleaning chore/task
 - Calculate recurring reminders for cleaning chores/tasks
 - Send user reminder for cleaning chores/tasks
-- Set and upate chore/task status
+- Set and update chore/task status
 
 
 ### 1d. Gherkin Validation (Example Test Scenarios)
@@ -217,29 +217,35 @@ TBD - placeholder, need to determine in better detail what it means to sort and 
 ##### Scenario 1: Valid food item name non-duplicate entry
 
 Given: The user has selected to enter in a food item name 
+
 And the name does not already appear in the inventory
-When: User enters a item name with charecter length is greater than 3 
-And charecter length is less than 50
-Then:  Food item name check against inventoty list passes
+
+When: User enters a item name with character length is greater than 3 
+
+And character length is less than 50
+
+Then:  Food item name check against inventory list passes
+
 And Food item name is saved into inventory as a new record 
+
 And User is given a visual confirmation that the item is saved
 
-##### Scenario 2:  Valid food item name duplicate entry - inital submission
+##### Scenario 2:  Valid food item name duplicate entry - initial submission
 
 Given: The user has selected to enter in a food item name
 
 And the name already appear in the active inventory (Non archived/consumed)
 
-When:  User enters a item name with charecter length is greater than 3 
+When:  User enters a item name with character length is greater than 3 
 
-And charecter length is less than 50
+And character length is less than 50
 
-Then:  Food item name check against inventoty list fails
+Then:  Food item name check against inventory list fails
 
 And User is given a choice to add new duplicate item or cancel adding a duplicate food item
 
 
-##### Scenario 2a: Valid food item name duplicate entry - user decideds to cancel new food item
+##### Scenario 2a: Valid food item name duplicate entry - user decides to cancel new food item
 
 Given: User is trying to add a duplicate food item 
 
@@ -250,7 +256,7 @@ When: User selects canceling adding the new item
 Then: User is given a visual confirmation that adding the food item has been cancelled
 
 
-##### Scenario 2b: Valid food item name duplicate entry - user decideds to add duplicate new food item
+##### Scenario 2b: Valid food item name duplicate entry - user decides to add duplicate new food item
 
 Given: User is trying to add a duplicate food item 
 
@@ -263,24 +269,24 @@ Then: Food item name is saved into inventory as a new record
 And User is given a visual confirmation that the item is saved
 
 
-##### Scenario 3: Invalid food item name - too few charecters
+##### Scenario 3: Invalid food item name - too few characters
 
 Given: The user has selected to enter in a food item name 
 
 And the name does not already appear in the inventory
 
-When: User enters a item name with charecter length is less than 3 
+When: User enters a item name with character length is less than 3 
 
 Then: User is given a visual invalid Food Name warning 
 
 
-##### Scenario 4: Invalid food item name - too many charecters
+##### Scenario 4: Invalid food item name - too many characters
 
 Given: The user has selected to enter in a food item name 
 
 And the name does not already appear in the inventory
 
-When: User enters a item name with charecter length is gerater than 50
+When: User enters a item name with character length is greater than 50
 
 Then: User is given a visual invalid Food Name warning 
 
@@ -309,4 +315,4 @@ Then: User is given a visual invalid Food Name warning
 #### Feature/Package N (appropriate UML diagrams)
 
  Diagrams should be rendered as images that appear within the README document.
-
+ 
