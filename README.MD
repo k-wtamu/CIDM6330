@@ -198,6 +198,7 @@ TBD - placeholder, need to determine in better detail what it means to sort and 
 - Set rules for food expiration reminders
 - Calculate reminder schedule based off item expeiration date and rules for reminders
 - Send user reminder for food expirations
+- Set and update item status
 
 **Cleaning chores/tasks Database (CD)**
 - Store new Cleaning chore/task in data structure/database
@@ -206,19 +207,7 @@ TBD - placeholder, need to determine in better detail what it means to sort and 
 - Verify user inputs for new and updated Cleaning chore/task
 - Calculate recurring reminders for cleaning chores/tasks
 - Send user reminder for cleaning chores/tasks
-- Set user 
-
-**Item Entry User Interface** 
-- 
-- 
-- 
- 
-
-**Cleaning Chore Task User Interface** 
-- 
-- 
-- 
-
+- Set and upate chore/task status
 
 
 #### Gherkin Validation (Example Test Scenarios)
