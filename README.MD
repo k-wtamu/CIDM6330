@@ -71,7 +71,7 @@ Confirmations/Acceptance Criteria:
 - [ ] A reminder will be sent two days before for items in the refrigerator
 - [ ] All foods will have a designated expiration date
 
-**As a user of the home food management system I would like to view all current food items stored in the system**
+**As a user of the basic home management system I would like to view all current food items stored in the system**
 
 Confirmations/Acceptance Criteria: 
 - [ ] Food item names will be between three and 50 charecters 
@@ -79,6 +79,10 @@ Confirmations/Acceptance Criteria:
 - [ ] Food items can be viewed in alphebetical order
 - [ ] Food items can be viewed in order of expiration date; sorted by both nearest and farthest expiration in relation to the current date 
 - [ ] Expiration date is defined by Day, Month, Year
+
+**As a user of the basic home management system I would like to designate food items as consumed, disposed of, or in current inventory**
+- [ ] Food items will have a designated status
+- [ ] Food item statuses include consumed, disposed of, or in current inventory
 
 **As a user of the basic home management system I would like to have reminders for daily, monthly, and quarterly cleaning chores**
 
@@ -89,11 +93,15 @@ Confirmations/Acceptance Criteria:
 - [ ] Repeate cleaning chores can be set as daily, weekly, monthly, or quarterly tasks
 - [ ] Repeate cleaning chores should have one or more selected day(s) of the week to be repeated
 
-**As a user of the home food management system I would like to set a new reminder after being given a reminder for daily, monthly, and quarterly cleaning**
+**As a user of the basic home management system I would like to set a new reminder after being given a reminder for daily, monthly, and quarterly cleaning chores**
+- [ ] Cleaning chores will have a designated status
+- [ ] Cleaning chores statuses include scheduled, late, or completed
 
 Confirmations/Acceptance Criteria: 
 - [ ] When a user gets a reminder, they are prompted with a choice to reschedule
 - [ ] When a user is choosing to reschedule user can also edit frequency 
+
+**As a user of the basic home management system I would like to mark chore tasks as complete**
 
 ### Use Cases
 
