@@ -63,21 +63,65 @@ __*To scope this down for this class, I am focusing on the software architecture
 
 #### User Stories
 
-As a user of the basic home management system I would like to have reminders of when food may be expiring 
-Confirmations: 
-- [ ] W 
-As a user of the basic home management system I would like to have reminders for daily, monthly, and quarterly cleaning
-Confirmations: 
-- [ ] W 
-As a user of the home food management system 
-Confirmations: 
-- [ ] W 
-As a user of the home food management system 
-Confirmations: 
-- [ ] W  
+1) As a user of the basic home management system I would like to have reminders for when food is expiring 
+Confirmations/Acceptance Criteria: 
+- [ ] Items with a best buy date will have the date stored as the expiration date
+- [ ] Food locations are defined as either Pantry, Refrigerator, or Freezer
+- [ ] A reminder will be sent one week before expiration for items in the Pantry or Freezer
+- [ ] A reminder will be sent two days before for items in the refrigerator
+- [ ] All foods will have a designated expiration date
+
+2) As a user of the home food management system I would like to view all current food items stored in the system
+Confirmations/Acceptance Criteria: 
+- [ ] Food items can be viewed categorized by location
+- [ ] Food items can be viewed in alphebetical order
+- [ ] Food items can be viewed in order of expiration date; sorted by both nearest and farthest expiration in relation to the current date 
+- [ ] Expiration date is defined by Day, Month, Year 
+
+
+3) As a user of the basic home management system I would like to have reminders for daily, monthly, and quarterly cleaning chores 
+Confirmations/Acceptance Criteria: 
+- [ ] Cleaning chores can be categorized as daily, monthly, or quarterly tasks
+- [ ] Cleaning chores should be 
+
+4) As a user of the home food management system I would like to set a new reminder after being given a reminder for daily, monthly, and quarterly cleaning
+Confirmations/Acceptance Criteria: 
+- [ ]
+
 
 
 #### Use Cases
+
+1) Enter new Food Item
+Name
+Identifier:
+Base Course of Action 
+- User selects system function (example selects a button) for entering in a new food item to track
+- System pesents user with mandatory blank entry fields for Item Name (Free text), Item location (dropdown), Expiration date (Date field)
+- User enters in the Item name
+- System verifies the item name field is not blank
+- System saves the item name
+- User selects the Item location
+- System verifies the item location field is not blank
+- System saves the item location
+- User enters/selects the item expiration date
+- System verifies the item exirpation date field is not blank
+- System verifies the item expiration date is not before todays date
+- System saves the expiration date
+- System presents user with optional blank entry fields for Notes
+- System saves notes field if not empty
+- System provides verification item has been saved to inventory
+
+2) 
+Name
+Identifier:
+Base Course of Action 
+
+3) 
+Name
+Identifier:
+Base Course of Action 
+
 
 
 #### Features
