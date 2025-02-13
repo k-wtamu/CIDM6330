@@ -294,7 +294,7 @@ Then: User is given a visual invalid Food Name warning
 ------------------------------------------------------------------------------------------------
 
 
-##  Specifications
+## Specifications
 
 
 ### 2a. Concept
@@ -317,10 +317,17 @@ Then: User is given a visual invalid Food Name warning
 #### System May
 - Provide text to voice
 - Allow user to change color scheme to "dark mode"
-- 
+- Allow user to increase font size
 
 ### 2c. Interfaces (Controls)
 
+#### Interfaces
+| Interface | Description |
+| ----------- | ----------- |
+| Interface 1 | Description 2 |
+
+
+#### 
 
 ### 2d. Behaviors
 
