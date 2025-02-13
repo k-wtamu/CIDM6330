@@ -1,17 +1,16 @@
 # Home Food Manangement System ~Integrated Smart Home, More than Just Security and Fancy Gadgets~
-** Assignment 1 Note:** For this week, I striked through changes from last week and <mark>highlighted new details</mark> to descope the projected from an entire home system to just focusing on one aspect of a household to make this a little more achiveable this semester, at the next submission I will just remove them.
+**Assignment 1 Note:** For this week, I striked through changes from last week and <mark>highlighted new details</mark> to descope the projected from an entire home system to just focusing on one aspect of a household to make this a little more achiveable this semester, at the next submission I will just remove them.
 
 **Student:** Kristen Brunngraber
 
 **Class:**  2025SP SOFTWARE ARCH. (CIDM-6330-70)
 
-Front Page !!!!!!!!!!!
-
+**Date:**  12 Febuary 2025
 
 ------------------------------------------------------------------------------------------------
 
 
-Introduction 
+## Introduction 
 
 ##### A problem for which a designed software system could assist in improving or solving
 As people are getting more used to companies tracking *(and using)* the meta data that is constantly being tracked in virtually every interaction we have, from any purchase with a debit or credit card to the streaming services and social media apps we use, it would be nice to see some additional benefits other than targeted ads. 
@@ -38,7 +37,7 @@ __*To scope this down for this class, I am focusing on the software architecture
 ------------------------------------------------------------------------------------------------
 
 
-# Contents
+## Contents
 
 1. [Requirements statements](#Requirements-statements)
     1. [User Stories](#User-Stories)
@@ -58,10 +57,10 @@ __*To scope this down for this class, I am focusing on the software architecture
 ------------------------------------------------------------------------------------------------
 
 
-###  1. Requirements statements
+##  1. Requirements statements
 
 
-#### User Stories
+### User Stories
 
 1) As a user of the basic home management system I would like to have reminders for when food is expiring 
 
@@ -96,7 +95,7 @@ Confirmations/Acceptance Criteria:
 
 
 
-#### Use Cases
+### Use Cases
 
 ##### Name: Enter new Food Item
 Identifier: UC-1
@@ -148,22 +147,22 @@ Base Course of Action
 ###  2. Specifications
 
 
-#### Concept
+### Concept
 
 
-#### UX Notes
+### UX Notes
 
 
-#### Interfaces (Controls)
+### Interfaces (Controls)
 
 
-#### Behaviors
+##### Behaviors
 
 
-##### Feature/Package A (appropriate UML diagrams)
+###### Feature/Package A (appropriate UML diagrams)
 
 
-##### Feature/Package N (appropriate UML diagrams)
+###### Feature/Package N (appropriate UML diagrams)
 
  Diagrams should be rendered as images that appear within the README document.
 
