@@ -214,15 +214,36 @@ TBD - placeholder, need to determine in better detail what it means to sort and 
 
 **Feature: Store new food items in data structure/database**
 
-Scenario 1:  Valid food item name non-duplicate entry 
-Given: The user has selected to enter in a food item name and the name does not already appear in the inventory
-When:  User enters a item name with charecter length between 3 and 50
-Then:  Food item name is checked against inventoty list && Food item name is saved into inventory as a new record && User is given a visual confirmation that the item is saved
+Scenario 1: Valid food item name non-duplicate entry 
+Given: The user has selected to enter in a food item name 
+And the name does not already appear in the inventory
+When: User enters a item name with charecter length is greater than 3 
+And charecter length is less than 50
+Then:  Food item name check against inventoty list passes
+And Food item name is saved into inventory as a new record 
+And User is given a visual confirmation that the item is saved
 
-Scenario 1:  Valid food item name duplicate entry 
+Scenario 2:  Valid food item name duplicate entry - inital submission
 Given: The user has selected to enter in a food item name
-When:  User enters a item name with charecter length between 3 and 50
-Then:  Food item name is saved into inventory as a new record, 
+And the name already appear in the active inventory (Non archived/consumed)
+When:  User enters a item name with charecter length is greater than 3 
+And charecter length is less than 50
+Then:  Food item name check against inventoty list fails
+And User is given a choice to add new duplicate item or cancel adding a duplicate food item
+
+Scenario 2a:  Valid food item name duplicate entry - user decideds to cancel new food item
+Given: User is trying to add a duplicate food item 
+And the user has been prompted with the choice to add new duplicate item or cancel adding a duplicate food item
+When: User selects canceling adding the new item
+Then: User is given a visual confirmation that adding the food item has been cancelled
+
+Scenario 2b:  Valid food item name duplicate entry - user decideds to add duplicate new food item
+Given: User is trying to add a duplicate food item 
+And the user has been prompted with the choice to add new duplicate item or cancel adding a duplicate food item
+When: User selects to duplicate the food item
+Then: Food item name is saved into inventory as a new record 
+And User is given a visual confirmation that the item is saved
+
 
 Scenario 3: Invalid food item name 
 Given: 
