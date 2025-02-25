@@ -16,7 +16,7 @@
  - Do I want a shopping list entity?
 
 
-todo for assignment 2:
+ # todo for assignment 2:
 
 Create an API in Python using FastAPI (we'll switch to Django later)
 Create Pydantic models that mirror your ERD and assist to validate Create, Read, Update, Delete (CRUD) apps for your ERD
