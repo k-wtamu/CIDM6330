@@ -1,15 +1,11 @@
-from fastapi import FastAPI, HTTPException
-from pydantic import BaseModel
+pip install fastapi uvicorn
 
 
-app = FastAPI()
+from fastapi import FastAPI # 1: import
+
+app = FastAPI() # 2: make app
 
 
-
-# Data 
-
-
-# Pydantic model
-
-
-class 
+@app.get("/") # 3: path operation
+async def root():
+    return {"message": "Hello World"}
