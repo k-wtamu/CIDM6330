@@ -76,12 +76,30 @@ fooditems = {
 
 choreitems ={
 "1": ChoreItem(choreitemUID=111, choreitemname="sweeping", choreitemduration=[15,"min"], choreitempriority=2, choreitemlocation= ["livingroom","bedroom 2", "hallway"], choreitemnotes=""),
-"3": ChoreItem(choreitemUID=222, choreitemname="dishes", choreitemduration=[25,"min"], choreitempriority=1, choreitemlocation= ["kitchen"], choreitemnotes=""),
+"2": ChoreItem(choreitemUID=222, choreitemname="dishes", choreitemduration=[25,"min"], choreitempriority=1, choreitemlocation= ["kitchen"], choreitemnotes=""),
 "3": ChoreItem(choreitemUID=333, choreitemname="laundry", choreitemduration=[2,"hour"], choreitempriority=2, choreitemlocation= ["laundry"], choreitemnotes=""),
 "4": ChoreItem(choreitemUID=444, choreitemname="trash", choreitemduration=[30,"min"], choreitempriority=1, choreitemlocation= ["kitchen","bedroom 1", "garage"], choreitemnotes=""),
 }
 
 schedules = {
-
-
+"1": ChoreSchedules(scheduleUID=1 , duedate=12/12/2024 , actualcompletiondate=12/11/2024 , notification="" , choreitemstatus="complete" , repeateevery=[2,"weeks"], repeaton="Thursday" , enddetails="Never" ), 
+"2": ChoreSchedules(scheduleUID=2 , duedate=12/15/2024 , actualcompletiondate=12/15/2024 , notification="" , choreitemstatus="complete" , repeateevery=[2,"weeks]" , repeaton="Thursday" , enddetails="5" ), 
+"3": ChoreSchedules(scheduleUID=3 , duedate=12/16/2024 , actualcompletiondate=12/17/2024 , notification="" , choreitemstatus="complete" , repeateevery=[1, "month"] , repeaton="Monday", enddetails="01/02/2031" ), 
+"4": ChoreSchedules(scheduleUID=4 , duedate=12/18/2024 , actualcompletiondate=12/18/2024 , notification="" , choreitemstatus="complete" , repeateevery=[3, "days"] , repeaton="Monday" , enddetails= "05/05/2031"), 
 }
+
+
+
+@app.get("/")
+def read_root():
+    return {"Hello": "World"}
+
+@app.get("/users/{userID}")
+def read_item(userID: int): # read user id
+    return {"userID": userID, "user": users[str(userID)]}
+
+@app.put("/users/{userID}")
+def update_item(userID: int, user: Users):
+    user[str(userID)] = user  # update the pet in the dictionary
+    # however, without a persistence strategy, this will be lost when the server restarts
+    return {"userID": userID, "item": Users[str(userID)]}
