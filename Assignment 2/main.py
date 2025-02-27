@@ -4,6 +4,8 @@ import datetime
 
 # note tuples cant be changed easily, use lists for things likely to change
 # note 2, not nesisary to define everything by class name inside the class
+
+
 app = FastAPI() # 2: make app
 
 
@@ -12,14 +14,13 @@ app = FastAPI() # 2: make app
 #    return {"message": "Hello World"}
 
 
-
 # Create pydantic models for Entities
 
 class Users(BaseModel):
     	userID: str
 	username: str
-    	useryearborn: date.year
-    	usericon: str 		# may want to update to another way to store image/icon data
+    	useryearborn: date.year					# may want to just use DOB if this doesnt work and use datetime.date
+    	usericon: str 						# may want to update to another way to store image/icon data
 	useremail: List[str]
 	userphonenumber: List[str]
 
@@ -30,10 +31,10 @@ class FoodItem(BaseModel):
  	fooditemname: str
 	fooditemfavorite: bool
 	fooditemspecialtystore: List[str]
-	fooditemshoppinglist: List[str] # allows for multiple shopping list "tags"
-	fooditemexpirationreminder: # ??? unsure on this one maybe a Union[int,??interval?? hours of day]
+	fooditemshoppinglist: List[str] 			# allows for multiple shopping list "tags"
+	fooditemexpirationreminder:  list[int | str]		# or maybe its a List[str,int] or  Union[str, int]. https://stackoverflow.com/questions/72111467/why-cant-i-specify-multiple-types-in-a-list-in-pydantic 
 	fooditemdaysuntilexpiration: int
-	fooditemexpirationdate: datetime.date # not sure this is right in pydantic. need attributes; year, month, and day.
+	fooditemexpirationdate: datetime.date 				# not sure if pydantic can use datetime.date. need attributes; year, month, and day.
 	fooditemnotes: str
 	fooditemstoragelocation: str
 
@@ -44,7 +45,6 @@ class ChoreItem(BaseModel):
 	choreitempriority: # ???
 	choreitemlocation: # str ?? needs household and room 
 	chireitemnotes:	str
-
 
 class ChoreSchedule(BaseModel):
 	scheduleUID:str
