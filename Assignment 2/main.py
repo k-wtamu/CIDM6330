@@ -10,8 +10,8 @@ app = FastAPI() # 2: make app
 
 
 @app.get("/") # 3: path operation the decorator indicating path and type of operation
-#	async def root():
-#    return {"message": "Hello World"}
+	async def root():
+    return {"message": "Hello World"}
 
 
 # Create pydantic models for Entities
@@ -44,7 +44,7 @@ class ChoreItem(BaseModel):
 	choreitemduration: List[int | str] # needs number and interval
 	choreitempriority: int
 	choreitemlocation: List[str] # needs household and room 
-	chireitemnotes:	str
+	choreitemnotes:	str
 
 class ChoreSchedule(BaseModel):
 	scheduleUID: str
@@ -74,8 +74,12 @@ fooditems = {
 "4": FoodItem(fooditemUID=1112,  fooditemstatus="spolied", fooditemquantity=1, fooditemname:"potatoes", fooditemfavorite=FALSE, fooditemspecialtystore=[], fooditemshoppinglist=[], fooditemexpirationdate="12/01/2026", fooditemexpirationreminder=3,"day",0900] , fooditemdaysuntilexpiration=1, fooditemnotes="", fooditemstoragelocation="counter")
 }
 
-choreitems
-
+choreitems ={
+"1": ChoreItem(choreitemUID=111, choreitemname="sweeping", choreitemduration=[15,"min"], choreitempriority=2, choreitemlocation= ["livingroom","bedroom 2", "hallway"], choreitemnotes=""),
+"3": ChoreItem(choreitemUID=222, choreitemname="dishes", choreitemduration=[25,"min"], choreitempriority=1, choreitemlocation= ["kitchen"], choreitemnotes=""),
+"3": ChoreItem(choreitemUID=333, choreitemname="laundry", choreitemduration=[2,"hour"], choreitempriority=2, choreitemlocation= ["laundry"], choreitemnotes=""),
+"4": ChoreItem(choreitemUID=444, choreitemname="trash", choreitemduration=[30,"min"], choreitempriority=1, choreitemlocation= ["kitchen","bedroom 1", "garage"], choreitemnotes=""),
+}
 
 schedules = {
 
