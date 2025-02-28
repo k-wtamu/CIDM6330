@@ -1,5 +1,5 @@
 # Home Food and Chore Management System  
-**Assignment 2 Note: select here to skip to python code and [ERD](#Entity-Relationship-Diagram)** 
+**Assignment 2 Note: select here to skip to [python API](#API-in-Python-using-FastAPI) and [ERD](#Entity-Relationship-Diagram)** 
 
 
 **Student:** Kristen Brunngraber
@@ -52,7 +52,7 @@ __To scope this down for this class, I am focusing on the software architecture 
         2. Feature/Package N (appropriate UML diagrams)
 3. [Entity Relationship Diagram](#Entity-Relationship-Diagram)
     1. [ERD]
-    2. 
+4. [API in Python using FastAPI](#API-in-Python-using-FastAPI)
 
 ------------------------------------------------------------------------------------------------
 
