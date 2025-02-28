@@ -1,5 +1,5 @@
 # Home Food and Chore Management System  
-**Assignment 1 Note:** 
+**Assignment 2 Note: select here to skip to python code and ERD** 
 
 
 **Student:** Kristen Brunngraber
@@ -50,7 +50,9 @@ __To scope this down for this class, I am focusing on the software architecture 
     4. [Behaviors] 
         1. Feature/Package A (appropriate UML diagrams)
         2. Feature/Package N (appropriate UML diagrams)
-
+3. [Entity Relationship Diagram](#Entity-Relationship-Diagram)
+    1. [ERD]
+    2. 
 
 ------------------------------------------------------------------------------------------------
 
@@ -354,5 +356,8 @@ Adults whom do not have enough money to pay for an assistant to help manage thei
 ![This is a Activity Diagram](/Assignment%201/ActivityDiagramFoodItems.PNG "This is a Activity Diagram")
 
 
- 
+
+## Entity Relationship Diagram
+
+![This is a ERD](/Assignment%201/EntityRelationshipDiagram.PNG "This is a ERD")
  
