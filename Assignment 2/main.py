@@ -195,7 +195,7 @@ step 8: select execute
 """
 	
 
-# 5.6 additional CRUD opperations for the other entities fooditems, choreitems, schedules to be created later
+# 5.6 additional CRUD operations for the other entities food items, chore items, schedules to be created later
 
 
 
