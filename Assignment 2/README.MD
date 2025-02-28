@@ -52,7 +52,6 @@ __To scope this down for this class, I am focusing on the software architecture 
         1. Feature/Package A (appropriate UML diagrams)
         2. Feature/Package N (appropriate UML diagrams)
 3. [Entity Relationship Diagram](#Entity-Relationship-Diagram)
-    1. [ERD]
 4. [API in Python using FastAPI](#API-in-Python-using-FastAPI)
 
 ------------------------------------------------------------------------------------------------
