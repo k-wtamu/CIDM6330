@@ -135,6 +135,7 @@ def getuser(userID: int):
 	if str(userID) not in userdata:
 		raise HTTPException(status_code=404, detail="Item not found")	
 	return {"userID": userID,"item": userdata[str(userID)]}
+	
 """
 Test 1: get request with userID from test request above 
 http://127.0.0.1:8000/api/getuser/9999
@@ -195,10 +196,106 @@ step 8: select execute
 """
 	
 
-# 5.6 additional CRUD operations for the other entities food items, chore items, schedules to be created later
+# 6 additional CRUD operations for the other entities food items, chore items, schedules
+
+# 6.1 food items
+
+@app.post("/api/createnewfood/{fooditemUID}")
+def create_new_fooditem(fooditemUID: int, newfood: FoodItem): 
+	if str(fooditemUID) in fooditems:
+		raise HTTPException(status_code=404, detail="Item already exists")	
+	else: 
+		fooditems[str(fooditemUID)] = newfood  # adding newfood to fooditems dictionary 	
+	return {"fooditemUID": fooditemUID,"item": fooditems[str(fooditemUID)]}	
+		
+@app.get("/api/getfooditem/{fooditemUID}")
+def get_fooditem(fooditemUID: int): 
+	if str(fooditemUID) not in fooditems:
+		raise HTTPException(status_code=404, detail="Item not found")	
+	return {"fooditemUID": fooditemUID,"item": fooditems[str(fooditemUID)]}	
+
+@app.put("/api/updatenewfooditem/{fooditemUID}")
+def update_foodiem(fooditemUID: int, newfood: FoodItem):
+	if str(fooditemUID) not in fooditems:
+		raise HTTPException(status_code=404, detail="Item not found")
+	else:
+		fooditems[str(fooditemUID)] = newfood  # update newfood data to fooditems dictionary 	
+	return {"fooditemUID": fooditemUID,"item": fooditems[str(fooditemUID)]}	
+	
+@app.delete("/api/deletenewfooditem/{fooditemUID}")
+def delete_fooditem(fooditemUID: str):  
+	if str(fooditemUID) not in fooditems:
+		raise HTTPException(status_code=404, detail="Item not found")
+	else:
+		del fooditems[fooditemUID]
+	return {"message": f"Item {fooditemUID} deleted"}	
+	
+	
+
+# 6.2 chore items
+
+@app.post("/api/createnewchore/{choreitemUID}")
+def create_new_choreitem(choreitemUID: int, newfood: ChoreItem): 
+	if str(choreitemUID) in choreitems:
+		raise HTTPException(status_code=404, detail="Item already exists")	
+	else: 
+		choreitems[str(choreitemUID)] = newfood  # adding newfood to choreitems dictionary 	
+	return {"choreitemUID": choreitemUID,"item": choreitems[str(choreitemUID)]}	
+		
+@app.get("/api/getchoreitem/{choreitemUID}")
+def get_choreitem(choreitemUID: int): 
+	if str(choreitemUID) not in choreitems:
+		raise HTTPException(status_code=404, detail="Item not found")	
+	return {"choreitemUID": choreitemUID,"item": choreitems[str(choreitemUID)]}	
+
+@app.put("/api/updatenewchoreitem/{choreitemUID}")
+def update_foodiem(choreitemUID: int, newfood: ChoreItem):
+	if str(choreitemUID) not in choreitems:
+		raise HTTPException(status_code=404, detail="Item not found")
+	else:
+		choreitems[str(choreitemUID)] = newfood  # update newfood data to choreitems dictionary 	
+	return {"choreitemUID": choreitemUID,"item": choreitems[str(choreitemUID)]}	
+	
+@app.delete("/api/deletenewchoreitem/{choreitemUID}")
+def delete_choreitem(choreitemUID: str):  
+	if str(choreitemUID) not in choreitems:
+		raise HTTPException(status_code=404, detail="Item not found")
+	else:
+		del choreitems[choreitemUID]
+	return {"message": f"Item {choreitemUID} deleted"}
 
 
+# 6.3 schedules
 
+@app.post("/api/createschedule/{scheduleUID}")
+def create_new_schedule(scheduleUID: int, newfood: ChoreSchedule): 
+	if str(scheduleUID) in schedules:
+		raise HTTPException(status_code=404, detail="Item already exists")	
+	else: 
+		schedules[str(scheduleUID)] = newfood  # adding newfood to schedules dictionary 	
+	return {"scheduleUID": scheduleUID,"item": schedules[str(scheduleUID)]}	
+		
+@app.get("/api/getschedule/{scheduleUID}")
+def get_schedule(scheduleUID: int): 
+	if str(scheduleUID) not in schedules:
+		raise HTTPException(status_code=404, detail="Item not found")	
+	return {"scheduleUID": scheduleUID,"item": schedules[str(scheduleUID)]}	
+
+@app.put("/api/updateschedule/{scheduleUID}")
+def update_schedule(scheduleUID: int, newfood: ChoreSchedule):
+	if str(scheduleUID) not in schedules:
+		raise HTTPException(status_code=404, detail="Item not found")
+	else:
+		schedules[str(scheduleUID)] = newfood  # update newfood data to schedules dictionary 	
+	return {"scheduleUID": scheduleUID,"item": schedules[str(scheduleUID)]}	
+	
+@app.delete("/api/deleteschedule/{scheduleUID}")
+def delete_choreitem(scheduleUID: str):  
+	if str(scheduleUID) not in schedules:
+		raise HTTPException(status_code=404, detail="Item not found")
+	else:
+		del schedules[scheduleUID]
+	return {"message": f"Item {scheduleUID} deleted"}
 
 if __name__ == "__main__": # !! This needs to come after all the api def statements
     import uvicorn
