@@ -359,5 +359,5 @@ Adults whom do not have enough money to pay for an assistant to help manage thei
 
 ## Entity Relationship Diagram
 
-![This is a ERD](/Assignment%201/EntityRelationshipDiagram.PNG "This is a ERD")
+![This is a ERD](Assignment%202/EntityRelationshipDiagram.PNG "This is a ERD")
  
