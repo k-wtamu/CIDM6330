@@ -1,5 +1,5 @@
 # Home Food and Chore Management System  
-**Assignment 2 Note: select here to skip to python code and ERD** 
+**Assignment 2 Note: select here to skip to python code and [ERD](#Entity-Relationship-Diagram)** 
 
 
 **Student:** Kristen Brunngraber
@@ -359,5 +359,5 @@ Adults whom do not have enough money to pay for an assistant to help manage thei
 
 ## Entity Relationship Diagram
 
-![This is a ERD](Assignment%202/EntityRelationshipDiagram.PNG "This is a ERD")
+![This is a ERD](/Assignment%202/EntityRelationshipDiagram.PNG "This is a ERD")
  
