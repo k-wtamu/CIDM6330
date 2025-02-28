@@ -633,16 +633,19 @@
           <mxGeometry x="252.5" y="288" width="120" height="32" as="geometry" />
         </mxCell>
         <mxCell id="wPGwXaDWjZ9ufRB-cHB--1" value="&lt;i&gt;FK for Users&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="395.5" y="316.75" width="81" height="30" as="geometry" />
+          <mxGeometry x="402.12" y="321.75" width="81" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wPGwXaDWjZ9ufRB-cHB--2" value="choretocomplete" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="645" y="317.75" width="90" height="28" as="geometry" />
+          <mxGeometry x="645" y="317.75" width="105" height="28" as="geometry" />
         </mxCell>
         <mxCell id="wPGwXaDWjZ9ufRB-cHB--3" value="" style="endArrow=none;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y8iWRsaKwTW52933uygh-135" target="wPGwXaDWjZ9ufRB-cHB--2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="710" y="610" as="sourcePoint" />
             <mxPoint x="760" y="560" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="wPGwXaDWjZ9ufRB-cHB--4" value="&lt;i&gt;FK for Chore&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="296.75" width="81" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
