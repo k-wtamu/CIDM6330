@@ -1,4 +1,5 @@
 # Home Food and Chore Management System  
+
 **Assignment 2 Note: select here to skip to [python API](#API-in-Python-using-FastAPI) and [ERD](#Entity-Relationship-Diagram)** 
 
 
