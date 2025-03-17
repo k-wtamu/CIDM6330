@@ -1,1 +1,18 @@
 Will make any changes to week 3 after feedback/help here in this folder
+
+
+https://www.google.com/search?q=repository+pattern+in+python+with+multiple+classes&oq=repository+pattern+in+python+with+multiple+classes&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRigATIHCAQQIRigATIHCAUQIRigAdIBCTEwMzQ4ajBqNKgCALACAQ&sourceid=chrome&ie=UTF-8
+
+https://www.google.com/search?q=python+add+get+delete&sca_esv=c31d1b2737bb79d7&sxsrf=AHTn8zpIcPdcSsj18OiwFPSClVifuzHJrg%3A1742150006462&ei=dhnXZ6fnG_Ot5NoPy5jSgA0&ved=0ahUKEwin-p7Cno-MAxXzFlkFHUuMFNAQ4dUDCBA&uact=5&oq=python+add+get+delete&gs_lp=Egxnd3Mtd2l6LXNlcnAiFXB5dGhvbiBhZGQgZ2V0IGRlbGV0ZTIFECEYoAEyBRAhGKABMgUQIRigATIFECEYoAEyBRAhGJ8FSPokUNQIWIwjcAF4AZABAJgBXaAB8wiqAQIxNrgBA8gBAPgBAZgCEaAC6gnCAgoQABiwAxjWBBhHwgINEAAYgAQYsAMYQxiKBcICChAAGIAEGEMYigXCAg0QABiABBixAxhDGIoFwgIIEAAYgAQYsQPCAgsQABiABBiRAhiKBcICDhAAGIAEGJECGLEDGIoFwgIFEAAYgATCAgYQABgWGB7CAgUQIRirApgDAIgGAZAGCpIHAjE3oAfgWA&sclient=gws-wiz-serp
+
+
+https://www.stratascratch.com/blog/adding-and-removing-list-elements-with-python/#:~:text=To%20summarize%2C%20add%20and%20remove,enhance%20your%20Python%20programming%20skills.
+
+
+https://stackoverflow.com/questions/71309296/fastapi-relationship-two-tables
+
+https://www.google.com/search?sca_esv=fe77601a3581b981&sxsrf=AHTn8zr6rlzrniM3FYxe74_abOv8R9eiew:1742163411425&q=abstract+repository+for+multiple+entities+python+with+fastapi&spell=1&sa=X&ved=2ahUKEwiohZ260I-MAxUeElkFHd7ZCdQQBSgAegQIGBAB&biw=982&bih=1599&dpr=1.1
+
+
+
+https://www.google.com/search?q=python+check+to+see+if+id+in+repo+exists&sca_esv=fb56c32af1220337&sxsrf=AHTn8zoykSNy5XQdbJ4ZiKvYSPHKrb1v8w%3A1742170075440&ei=22fXZ6PAGom05NoPuYv7qAU&oq=python+check+tp+see+if+id+in+rep&gs_lp=Egxnd3Mtd2l6LXNlcnAiIHB5dGhvbiBjaGVjayB0cCBzZWUgaWYgaWQgaW4gcmVwKgIIATIHECEYoAEYCjIHECEYoAEYCjIHECEYoAEYCjIHECEYoAEYCjIHECEYoAEYCkiwOlCNBliULnADeAKQAQCYAXOgAboQqgEEMTkuN7gBAcgBAPgBAZgCHqAChRLCAgQQABhHwgILEAAYgAQYkQIYigXCAgoQABiABBhDGIoFwgINEAAYgAQYsQMYQxiKBcICCBAAGIAEGLEDwgIFEAAYgATCAgUQIRigAcICBRAhGKsCwgIHEAAYgAQYDcICBhAAGA0YHsICCBAAGAgYDRgewgIGEAAYFhgewgILEAAYgAQYhgMYigXCAggQABiABBiiBMICCBAAGKIEGIkFwgIFEAAY7wXCAgcQIRgKGKsCmAMA4gMFEgExIECIBgGQBgiSBwQyMS45oAf8zgE&sclient=gws-wiz-serp
