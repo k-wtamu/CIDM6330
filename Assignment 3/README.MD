@@ -5,4 +5,4 @@
 ###### NewRow.png shows the create testing
 ###### FinalUpdatedRow.png shows the updated testing
 #### Note 3: main2.py is an attempt at memory and sql repositories. Was not able to completly debug and test
-#### Note 4: main3.py starts to try and add in the other tables FoodItem, ChoreItem, ChoreSchedule. Was not able to expand to include the other 3 tables for my project
+#### Note 4: main3.py starts to try and add in the other tables FoodItem, ChoreItem, ChoreSchedule throughout each part of the assignment
