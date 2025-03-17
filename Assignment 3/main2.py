@@ -247,7 +247,7 @@ def do_sql():
     print(user_repo.do_read_id(1))
 
     # update
-    user_repo.do_update(1, "origin", "KAUS")
+    user_repo.do_update(1, "New Name")
 
     # read
     print(user_repo.do_read_id(1))
@@ -275,7 +275,7 @@ def do_memory():
     print(user_repo.do_read(1))
 
     # update
-    user_repo.do_update(1, "orig", "KAUS")
+    user_repo.do_update(1, "New Name")
 
     # read
     print(user_repo.do_read(1))
