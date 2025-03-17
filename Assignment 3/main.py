@@ -15,8 +15,6 @@ from typing import Optional
 import datetime
 import csv
 
-
-
 # 3 Define the model (starting w/ only User table)
 
 @dataclass
@@ -181,25 +179,17 @@ class SQLModelRepository(ManagementSystemRepository):
         self.engine = create_engine(db_string)
         SQLModel.metadata.create_all(self.engine)
         self.session = Session(self.engine)
-
 # Create
     def do_create(self, item: Users):
         self.session.add(item)
-        self.session.commit()
-		
+        self.session.commit()		
 # Read
     def get(self, name: str) -> Users | None:
         statement = select(Users).where(Users.name == name)
-        return self.session.exec(statement).first()
-		
+        return self.session.exec(statement).first()		
 # Update
 
-
-
-
 # Delete
-
-
 
 # 7 Memory implementation
 
@@ -228,7 +218,6 @@ class ManagementSystemRepositoryMemoryRepo(ManagementSystemRepository):
                 break
         
 """
-
 
 # 8 Initalize with dummy data
 def do_csv():
