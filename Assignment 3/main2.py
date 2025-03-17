@@ -23,49 +23,10 @@ import csv
 class Users(SQLModel, table=True):
 	userID: int = Field(default=None, primary_key=True)
 	username: str
-	useryearborn: int					# Todo: will need to later limit the years between XXXX & YYYY too complicated if we just want year datetime.date.year				
-	usericon: str 						# Note: may want to update to another way to store image/icon data
+	useryearborn: int					 
+	usericon: str 					 
 	useremail: str	# !!! Need to look into how you can use lists here.... for now using str instead of list[str] 
 	userphonenumber: str	# !!! Need to look into how you can use lists here.... for now using str instead of list[str] 
-
-"""	Will try to add in later. need to also make csv/sql/memory and fast API edits with these too if impelmenting for wole project
-class FoodItem(SQLModel, table=True):
-	fooditemUID: int
-	fooditemstatus: str  
-	fooditemquantity: int 
-	fooditemname: str
-	fooditemfavorite: bool
-	fooditemspecialtystore: list[str]
-	fooditemshoppinglist: list[str] 			# Note: allows for multiple shopping list "tags"
-	fooditemexpirationreminder:  list[int | str]		# Note: or maybe its a List[str,int] or  Union[str, int]. https://stackoverflow.com/questions/72111467/why-cant-i-specify-multiple-types-in-a-list-in-pydantic 
-	fooditemdaysuntilexpiration: int
-	fooditemexpirationdate: datetime.date 			#Note: using datetime.date because need attributes; year, month, and day.
-	fooditemnotes: str
-	fooditemstoragelocation: str
-
-class ChoreItem(SQLModel, table=True):
-	choreitemUID: int
-	choreitemname: str
-	choreitemduration: list[int | str] # Note: needs number and interval
-	choreitempriority: int
-	choreitemlocation: list[str]			 # Review: needs ability to store household and room if needed, so maybe seaperate these
-	choreitemnotes:	str
-
-class ChoreSchedule(SQLModel, table=True):
-	scheduleUID: int
-	choretocomplete: int # !!FK for the chore you are scheduling!!
-	duedate: datetime.date 
-	actualcompletiondate: datetime.date
-	notification:  list[int | str]
-	choreitemstatus: str
-	repeateevery: list[int | str]				# Note: combines to get the recurrence / frequency schedule 
-	repeaton: str 								# Note:combines to get the recurrence / frequency schedule 
-	endon: Optional[datetime.date] = None						# Note:combines to get the "Ends" part of the recurrence schedule
-	endafer: Optional[int] = None								# Todo: both of these are defaulted to = None so by defalult the Never attribute = True. when cretaing the code if endon = None &if endafter = None then set Never = True 
-	assignment: list[int] # !!FK for the chore you are assigning to people!!	
-	
-"""	
-	
 		
 # 3 Repository Interface
 
