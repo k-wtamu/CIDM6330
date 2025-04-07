@@ -1,7 +1,11 @@
 # Integrated Smart Home, More than Just Security and Fancy Gadgets
-Kristen Brunngraber
-2025SP SOFTWARE ARCH. (CIDM-6330-70)
-Assignment 04: Migrate to Django
+**Student:** Kristen Brunngraber
+
+**Class:**  2025SP SOFTWARE ARCH. (CIDM-6330-70)
+
+**Date:** 6 April 2025
+
+**Assignment:** Migrate to Django
 
 
 ##### SQL Permissions
