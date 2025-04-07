@@ -6,4 +6,4 @@ Assignment 04: Migrate to Django
 
 ##### SQL Permissions
 
-![This is a SQL Image](Assignment 4/SQL2.PNG "This is a SQL Image")
+![This is a SQL Image](/Assignment 4/SQL2.PNG "This is a SQL Image")
