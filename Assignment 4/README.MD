@@ -10,7 +10,7 @@
 
 ##### SQL Permissions
 
-![SQL Permissions](/Assignment%204/SQL2.PNG "SQL Permissions")
+![SQL Permissions](/Assignment%204/SQL2.png "SQL Permissions")
 
 
 ##### SQL Job - Model in Content Type
