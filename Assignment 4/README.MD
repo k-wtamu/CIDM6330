@@ -10,14 +10,14 @@
 
 ##### SQL Permissions
 
-![This is a SQL Image](/Assignment%4/SQL2.png "This is a SQL Image")
+![SQL Permissions](/Assignment%4/SQL2.png "SQL Permissions")
 
 
 ##### SQL Job - Model in Content Type
 
-![This is a SQL Image](/Assignment%4/SQL1.png "This is a SQL Image")
+![SQL Job](/Assignment%4/SQL1.png "SQL Job")
 
 
 ##### CMD Migrations Job
 
-![This is a SQL Image](/Assignment%4/CMD1.png "This is a SQL Image")
+![CMD Migrations](/Assignment%4/CMD1.png "CMD Migrations")
