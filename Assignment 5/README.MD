@@ -3,9 +3,9 @@
 
 **Class:**  2025SP SOFTWARE ARCH. (CIDM-6330-70)
 
-**Date:** 6 April 2025
+**Date:** 13 April 2025
 
-**Assignment:** Migrate to Django
+**Assignment:** Complete Django Migration
 
 
 ##### SQL Permissions
