@@ -15,7 +15,7 @@
 		* [User Stories](#User-Stories)
 		* [Use Cases](#Use-Cases)
 		* [Features](#Features)
-		* [Gherkin Validation](#Gherkin-Validation-(Example-Test-Scenarios))
+		* [Gherkin Validation](#Gherkin-Validation)
 
 	2. [Specifications](#Specifications)
 		* [Concept] 
@@ -228,7 +228,9 @@ TBD - placeholder, need to determine in better detail what it means to sort and 
 - Set and update chore/task status
 
 
-#### Gherkin Validation (Example Test Scenarios)
+#### Gherkin Validation
+
+(Example Test Scenarios)
 
 ##### Feature: Store new food items in data structure/database
 
