@@ -330,13 +330,13 @@ Then: User is given a visual invalid Food Name warning
 ### Concept
 
 #### Purpose
-Home Food and Chore Management System will provide a basic management system with an easy to use interface 
+Home Food and Chore Management System will provide a basic management system with an easy to use interface.
 
 #### Goal
 Release working management system with basic features and build additional features to track and manage additional household duties. Ensure the application usage does not create unreasonable additional work for the user. 
 
 #### Target Users
-Adults whom do not have enough money to pay for an assistant to help manage their daily lives. Users whom want to simplify their task tracking 
+Adults whom do not have enough money to pay for an assistant to help manage their daily lives. Users whom want to simplify their task tracking. 
 
 
 ### UX Notes
