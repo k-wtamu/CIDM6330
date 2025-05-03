@@ -19,7 +19,7 @@
 
 	2. [Specifications](#Specifications)
 		* [Concept] 
-		 * [UX Notes] 
+		* [UX Notes] 
 		* [Interfaces (Controls)] 
 		* [Behaviors] 
 			-  Feature/Package A (appropriate UML diagrams)
@@ -78,7 +78,7 @@ __To scope this down for this class, I am focusing on the software architecture 
 ###  Requirements Statements
 
 
-#### 1a. User Stories
+#### User Stories
 
 **As a user of the basic home management system I would like to have reminders for when food is expiring**
 
@@ -127,7 +127,7 @@ Confirmations/Acceptance Criteria:
 
 
 
-### 1b.Use Cases
+#### Use Cases
 
 **Name: Enter new Food Item**
 
@@ -206,7 +206,7 @@ TBD - placeholder, need to determine in better detail what it means to sort and 
 **Base Course of Action**  
 TBD - placeholder, need to determine in better detail what it means to sort and group tasks by date, location, alphabetically etc. and determine if I want to add in a priority function
 
-### 1c. Features
+#### Features
 
 **Food Inventory Database (FID)**
 - Store new food items in data structure/database
@@ -228,11 +228,11 @@ TBD - placeholder, need to determine in better detail what it means to sort and 
 - Set and update chore/task status
 
 
-### 1d. Gherkin Validation (Example Test Scenarios)
+#### Gherkin Validation (Example Test Scenarios)
 
-#### Feature: Store new food items in data structure/database
+##### Feature: Store new food items in data structure/database
 
-##### Scenario 1: Valid food item name non-duplicate entry
+###### Scenario 1: Valid food item name non-duplicate entry
 
 Given: The user has selected to enter in a food item name 
 
@@ -248,7 +248,7 @@ And Food item name is saved into inventory as a new record
 
 And User is given a visual confirmation that the item is saved
 
-##### Scenario 2:  Valid food item name duplicate entry - initial submission
+###### Scenario 2:  Valid food item name duplicate entry - initial submission
 
 Given: The user has selected to enter in a food item name
 
@@ -263,7 +263,7 @@ Then:  Food item name check against inventory list fails
 And User is given a choice to add new duplicate item or cancel adding a duplicate food item
 
 
-##### Scenario 2a: Valid food item name duplicate entry - user decides to cancel new food item
+###### Scenario 2a: Valid food item name duplicate entry - user decides to cancel new food item
 
 Given: User is trying to add a duplicate food item 
 
@@ -274,7 +274,7 @@ When: User selects canceling adding the new item
 Then: User is given a visual confirmation that adding the food item has been cancelled
 
 
-##### Scenario 2b: Valid food item name duplicate entry - user decides to add duplicate new food item
+######  Scenario 2b: Valid food item name duplicate entry - user decides to add duplicate new food item
 
 Given: User is trying to add a duplicate food item 
 
@@ -287,7 +287,7 @@ Then: Food item name is saved into inventory as a new record
 And User is given a visual confirmation that the item is saved
 
 
-##### Scenario 3: Invalid food item name - too few characters
+######  Scenario 3: Invalid food item name - too few characters
 
 Given: The user has selected to enter in a food item name 
 
@@ -298,7 +298,7 @@ When: User enters a item name with character length is less than 3
 Then: User is given a visual invalid Food Name warning 
 
 
-##### Scenario 4: Invalid food item name - too many characters
+######  Scenario 4: Invalid food item name - too many characters
 
 Given: The user has selected to enter in a food item name 
 
@@ -314,7 +314,7 @@ Then: User is given a visual invalid Food Name warning
 
 ## Specifications
 
-### 2a. Concept
+### Concept
 
 #### Purpose
 Home Food and Chore Management System will provide a basic management system with an easy to use interface 
@@ -326,7 +326,7 @@ Release working management system with basic features and build additional featu
 Adults whom do not have enough money to pay for an assistant to help manage their daily lives. Users whom want to simplify their task tracking 
 
 
-### 2b. UX Notes
+### UX Notes
 
 #### System Shall
 - Pass user acceptance testing
@@ -345,7 +345,7 @@ Adults whom do not have enough money to pay for an assistant to help manage thei
 - Allow user to change color scheme to "dark mode"
 - Allow user to increase font size
 
-### 2c. Interfaces (Controls)
+### Interfaces (Controls)
 
 #### Interfaces
 
@@ -356,7 +356,7 @@ Adults whom do not have enough money to pay for an assistant to help manage thei
 
 
 
-### 2d. Behaviors
+### Behaviors
 
 
 #### Feature: Store new food items in data structure/database
@@ -697,3 +697,4 @@ if __name__ == "__main__": # !! This needs to come after all the api def stateme
 
 ```
 
+------------------------------------------------------------------------------------------------
