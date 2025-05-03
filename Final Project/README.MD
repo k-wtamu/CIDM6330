@@ -15,7 +15,7 @@
 		* [User Stories](#User-Stories)
 		* [Use Cases](#Use-Cases)
 		* [Features](#Features)
-		* [Gherkin Validation](#Gherkin-Validation)
+		* [Gherkin Validation](#Gherkin-Validation-(Example-Test-Scenarios))
 
 	2. [Specifications](#Specifications)
 		* [Concept] 
