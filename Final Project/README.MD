@@ -22,12 +22,12 @@
 		* [UX Notes](#UX-Notes)
 		* [Interfaces](#Interfaces) 
 		* [Behaviors / Design Diagrams](#Design-Diagrams)
-			- Use Case Diagram
-			- Activity Diagram
-			- Sequence Diagram
-			- Class Diagram
-			- Component Diagram (for your architecture)
-			- State Machine Diagram
+			- Use Case Diagram(#Use-Case-Diagram)
+			- Activity Diagram(#Activity-Diagram)
+			- Sequence Diagram(#Sequence-Diagram)
+			- Class Diagram(#Class-Diagram)
+			- Component Diagram(#Component-Diagram)
+			- State Machine Diagram(#State-Machine-Diagram)
 
 3. [Evolution 1: An updated Requirements Specification](Requirements-Specification)
 
@@ -361,24 +361,33 @@ Adults whom do not have enough money to pay for an assistant to help manage thei
 | Interface Between Application and System Hosted on | Interface requirements include data input, data output, data storage, date information, CPU, etc. |
 
 
-
-### Behaviors
-
+### Design Diagrams
 
 #### Feature: Store new food items in data structure/database
-
 
 ##### Use Case Diagram
 
 ![This is a Use Case Diagram](/Assignment%201/UseCaseDiagramFoodItems.PNG "This is a Use Case Diagram")
 
-
-
 ##### Activity Diagram
-
 
 ![This is a Activity Diagram](/Assignment%201/ActivityDiagramFoodItems.PNG "This is a Activity Diagram")
 
+##### Sequence Diagram
+
+![This is a Sequence Diagram]
+
+##### Class Diagram
+
+![This is a Class Diagram]
+
+##### Component Diagram
+
+![This is a Component Diagram]
+
+##### State Machine Diagram
+
+![This is a State Machine Diagram]
 
 ------------------------------------------------------------------------------------------------
 
@@ -389,6 +398,22 @@ Adults whom do not have enough money to pay for an assistant to help manage thei
 ![This is a ERD](/Assignment%202/EntityRelationshipDiagram.PNG "This is a ERD")
  
 ### Additional Use Case Diagrams
+
+#### Feature: Food Inventory Database (FID)
+
+##### Use Case Diagrams
+
+![This is a Use Case Diagram]
+![This is a Use Case Diagram]
+![This is a Use Case Diagram]
+
+#### Feature: Cleaning chores/tasks Database (CD)
+
+##### Use Case Diagram
+
+![This is a Use Case Diagram]
+![This is a Use Case Diagram]
+![This is a Use Case Diagram]
 
 ------------------------------------------------------------------------------------------------
 
