@@ -10,20 +10,24 @@
 
 ## Contents
 
-1. [Introduction](#Introduction) ;NBSP
+1. [Introduction](#Introduction)  
+
 1.1. [Requirements statements](#Requirements-Statements)
     * [User Stories] 
     * [Use Cases] 
     * [Features] 
-    * [Gherkin Validation] ;NBSP
+    * [Gherkin Validation] 
+
 1.2. [Specifications](#Specifications)
     * [Concept] 
     * [UX Notes] 
     * [Interfaces (Controls)] 
     * [Behaviors] 
-      > *  Feature/Package A (appropriate UML diagrams)
-      > *  Feature/Package N (appropriate UML diagrams) ;NBSP
-1.3. [Entity Relationship Diagram](#Entity-Relationship-Diagram);NBSP
+      -  Feature/Package A (appropriate UML diagrams)
+      -  Feature/Package N (appropriate UML diagrams)  
+
+1.3. [Entity Relationship Diagram](#Entity-Relationship-Diagram) 
+
 1.4. [API in Python using FastAPI](#API-in-Python-using-FastAPI)
 
 2. Evolution 0: Domain Specification and UML Modeling
@@ -33,10 +37,15 @@
     * Sequence Diagram
     * State Machine Diagram
     * Use Case Diagram
+
 3. Evolution 1: An updated Requirements  Specification
+
 4. Evolution 2: An updated API
+
 5. Evolution 3: Skipping
+
 6. Evolution 4: Migrate to Django
+
 7. Evolution 5: Full Django + Tests
 
 ------------------------------------------------------------------------------------------------
