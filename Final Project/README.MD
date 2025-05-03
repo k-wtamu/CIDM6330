@@ -29,13 +29,21 @@
 			- Component Diagram (for your architecture)
 			- State Machine Diagram
 
-3. Evolution 1: An updated Requirements  Specification
+3. [Evolution 1: An updated Requirements Specification](Requirements-Specification)
 
 	1. [Entity Relationship Diagram](#Entity-Relationship-Diagram) 
+	2. [Additional Use Case Diagrams](#Additional-Use-Case-Diagrams)
 
-	2. [API in Python using FastAPI](#API-in-Python-using-FastAPI)
+
+	 
 
 4. Evolution 2: An updated API
+
+[API in Python using FastAPI](#API-in-Python-using-FastAPI)
+You may use the Django REST Framwork or Django Ninja
+Update your ERD as we used it to validate our entities which will be expressed using Pydantic for Django Ninja and/or DRF and the Django O/RM
+Update CRUD transactions as necessary
+
 
 5. Evolution 3: Skipping
 
@@ -374,16 +382,19 @@ Adults whom do not have enough money to pay for an assistant to help manage thei
 
 ------------------------------------------------------------------------------------------------
 
+## Updated Requirements Specification
 
-## Entity Relationship Diagram
+### Entity Relationship Diagram
 
 ![This is a ERD](/Assignment%202/EntityRelationshipDiagram.PNG "This is a ERD")
  
+### Additional Use Case Diagrams
 
 ------------------------------------------------------------------------------------------------
 
+##Evolution 2: An updated API
 
-## API in Python using FastAPI 
+### API in Python using FastAPI 
 Pydantic models that mirror ERD and initial set of CRUD transactions for User Entity 
 
 ```{python}
