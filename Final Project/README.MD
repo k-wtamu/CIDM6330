@@ -370,9 +370,9 @@ Adults whom do not have enough money to pay for an assistant to help manage thei
 
 ### Design Diagrams
 
-#### Feature: Store new food items in data structure/database
+#### Use Case Diagram
 
-##### Use Case Diagram
+#####  Feature: Store new food items in data structure/database
 
 ![This is a Use Case Diagram](/Assignment%201/UseCaseDiagramFoodItems.PNG "This is a Use Case Diagram")
 
@@ -438,7 +438,7 @@ Adults whom do not have enough money to pay for an assistant to help manage thei
 ### Updated ERD
 
 
-### Update CRUD Transations
+### Update CRUD Transactions
 
 
 ------------------------------------------------------------------------------------------------
