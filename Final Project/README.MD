@@ -22,12 +22,12 @@
 		* [UX Notes](#UX-Notes)
 		* [Interfaces](#Interfaces) 
 		* [Behaviors / Design Diagrams](#Design-Diagrams)
-			- Use Case Diagram(#Use-Case-Diagram)
-			- Activity Diagram(#Activity-Diagram)
-			- Sequence Diagram(#Sequence-Diagram)
-			- Class Diagram(#Class-Diagram)
-			- Component Diagram(#Component-Diagram)
-			- State Machine Diagram(#State-Machine-Diagram)
+			- [Use Case Diagram[(#Use-Case-Diagram)
+			- [Activity Diagram](#Activity-Diagram)
+			- [Sequence Diagram](#Sequence-Diagram)
+			- [Class Diagram](#Class-Diagram)
+			- [Component Diagram](#Component-Diagram)
+			- [State Machine Diagram](#State-Machine-Diagram)
 
 3. [Evolution 1: An updated Requirements Specification](Requirements-Specification)
 
