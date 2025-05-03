@@ -11,24 +11,23 @@
 ## Contents
 
 1. [Introduction](#Introduction)  
+	1. [Requirements statements](#Requirements-Statements)
+		* [User Stories] 
+		* [Use Cases] 
+		* [Features] 
+		* [Gherkin Validation] 
 
-1.1 [Requirements statements](#Requirements-Statements)
-    * [User Stories] 
-    * [Use Cases] 
-    * [Features] 
-    * [Gherkin Validation] 
+	2. [Specifications](#Specifications)
+		* [Concept] 
+		 * [UX Notes] 
+		* [Interfaces (Controls)] 
+		* [Behaviors] 
+			-  Feature/Package A (appropriate UML diagrams)
+			-  Feature/Package N (appropriate UML diagrams)  
 
-1.2 [Specifications](#Specifications)
-    * [Concept] 
-    * [UX Notes] 
-    * [Interfaces (Controls)] 
-    * [Behaviors] 
-      -  Feature/Package A (appropriate UML diagrams)
-      -  Feature/Package N (appropriate UML diagrams)  
+	3. [Entity Relationship Diagram](#Entity-Relationship-Diagram) 
 
-1.3 [Entity Relationship Diagram](#Entity-Relationship-Diagram) 
-
-1.4 [API in Python using FastAPI](#API-in-Python-using-FastAPI)
+	4. [API in Python using FastAPI](#API-in-Python-using-FastAPI)
 
 2. Evolution 0: Domain Specification and UML Modeling
     * [Activity Diagram]
