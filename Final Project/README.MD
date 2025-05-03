@@ -44,8 +44,6 @@
 
 5. [Evolution 3: Skipping](#Evolution-3)
 
-This Evolution became irrelevant once we went to a monolith like Djanog with its O/RM - all repository variations are dropped as the O/RM works differently
-
 6. [Evolution 4: Migrate to Django](#Migrate-to-Django)
 
 Ensure the proper models, views, and urls are in place
