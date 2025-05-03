@@ -24,7 +24,7 @@
 		* [Behaviors / Design Diagrams](#Design-Diagrams)
 			- [Use Case Diagram](#Use-Case-Diagram)
 			- [Activity Diagram](#Activity-Diagram)
-			- [Sequence Diagram](#Sequence-Diagram)
+			- [Sequence Diagram](#System-Level-Sequence-Diagram)
 			- [Class Diagram](#Class-Diagram)
 			- [Component Diagram](#Component-Diagram)
 			- [State Machine Diagram](#State-Machine-Diagram)
@@ -32,7 +32,7 @@
 3. [Evolution 1: An updated Requirements Specification](#Requirements-Specification)
 
 	1. [Entity Relationship Diagram](#Entity-Relationship-Diagram) 
-	2. [Additional Use Case Diagrams](#Additional-Use-Case-Diagrams)
+	2. [Additional Use Case Diagrams](#Service-Level-Use-Case-Sequence-Diagrams)
  
 4. [Evolution 2: An updated API](#Updated-API)
 
@@ -380,9 +380,9 @@ Adults whom do not have enough money to pay for an assistant to help manage thei
 
 ![This is a Activity Diagram](/Assignment%201/ActivityDiagramFoodItems.PNG "This is a Activity Diagram")
 
-##### Sequence Diagram
+##### System Level Sequence Diagram
 
-![This is a Sequence Diagram]
+![This is a Sequence Diagram](/Final%20Project/Diagrams/SystemLevelSequenceDiagrams.PNG "This is a Sequence Diagram")
 
 ##### Class Diagram
 
@@ -404,23 +404,15 @@ Adults whom do not have enough money to pay for an assistant to help manage thei
 
 ![This is a ERD](/Assignment%202/EntityRelationshipDiagram.PNG "This is a ERD")
  
-### Additional Use Case Diagrams
+### Service Level Use Case Sequence Diagrams
 
 #### Feature: Food Inventory Database (FID)
 
-##### Use Case Diagrams
-
-![This is a Use Case Diagram]
-![This is a Use Case Diagram]
-![This is a Use Case Diagram]
+![This is a Sequence Diagram](/Final%20Project/Diagrams/Food_Items_ServiceLevelSequenceDiagrams.PNG "This is a Sequence Diagram")
 
 #### Feature: Cleaning chores/tasks Database (CD)
 
-##### Use Case Diagram
-
-![This is a Use Case Diagram]
-![This is a Use Case Diagram]
-![This is a Use Case Diagram]
+![This is a Sequence Diagram](/Final%20Project/Diagrams/Chores_ServiceLevelSequenceDiagrams.PNG "This is a Sequence Diagram")
 
 ------------------------------------------------------------------------------------------------
 
