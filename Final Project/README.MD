@@ -12,10 +12,10 @@
 
 1. [Introduction](#Introduction)  
 	1. [Requirements statements](#Requirements-Statements)
-		* [User Stories] 
-		* [Use Cases] 
-		* [Features] 
-		* [Gherkin Validation] 
+		* [User Stories](#User-Stories)
+		* [Use Cases](#Use-Cases)
+		* [Features](#Features)
+		* [Gherkin Validation](#Gherkin-Validation)
 
 	2. [Specifications](#Specifications)
 		* [Concept] 
