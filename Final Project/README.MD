@@ -390,7 +390,7 @@ Adults whom do not have enough money to pay for an assistant to help manage thei
 
 ##### Component Diagram
 
-![This is a Component Diagram](Final%20Project/Diagrams/ComponentDiagram.PNG "This is a Component Diagram")
+![This is a Component Diagram](/Final%20Project/Diagrams/ComponentDiagram.PNG "This is a Component Diagram")
 
 ##### State Machine Diagram
 
