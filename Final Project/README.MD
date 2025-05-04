@@ -35,19 +35,16 @@
 	*  [Updated Class Diagram](#Updated-Class-Diagram)
  
 4. [Evolution 2: An updated API](#Updated-API)
-
 	*  [Django Ninja API](#Django-Ninja-API)
-
 	*  [Updated ERD](#Updated-ERD) 
-
 	*  [Update CRUD Transactions](#Update-CRUD-Transactions)
 
 5. [Evolution 3: Skipping](#Evolution-3)
 
 6. [Evolution 4: Migrate to Django](#Migrate-to-Django)
-
-Ensure the proper models, views, and urls are in place
-Migrate from FastAPI to Django Rest Framework (DRF) or Django Ninja
+	*  [Django Data Models](#Data-Models)
+	*  [Django Views](#Views) 
+	*  [Django Urls](#URLs)
 
 7. [Evolution 5: Full Django + Tests](#Full-Django-and-Tests)
 
