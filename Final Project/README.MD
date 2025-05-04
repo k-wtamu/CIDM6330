@@ -384,7 +384,7 @@ Adults whom do not have enough money to pay for an assistant to help manage thei
 
 ##### State Machine Diagram
 
-![This is a State Machine Diagram]
+![This is a State Machine Diagram](/Final%20Project/Diagrams/StateMachineDiagram.PNG "This is a State Machine Diagram")
 
 ------------------------------------------------------------------------------------------------
 
