@@ -516,6 +516,7 @@ class ChoreScheduleOut(Schema):
 
 ### Updated ERD
 
+![This is a ERD](/Final%20Project/Diagrams/UpdatedERD.PNG "This is a ERD") 
 
 ### Update CRUD Transactions
 
