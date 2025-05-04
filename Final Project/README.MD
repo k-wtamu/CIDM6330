@@ -207,16 +207,6 @@ Confirmations/Acceptance Criteria:
 - System provides verification item has been updated or changes have been discarded
 - System displays list of items
 
-**Name: View Food Inventory List** 
-**Identifier: UC-5** 
-**Base Course of Action**  
-TBD - placeholder, need to determine in better detail what it means to sort and group Items by date, location, alphabetically etc. 
-
-**Name: View Cleaning Chores** 
-**Identifier: UC-6** 
-**Base Course of Action**  
-TBD - placeholder, need to determine in better detail what it means to sort and group tasks by date, location, alphabetically etc. and determine if I want to add in a priority function
-
 #### Features
 
 **Food Inventory Database (FID)**
