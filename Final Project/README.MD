@@ -404,7 +404,6 @@ Adults whom do not have enough money to pay for an assistant to help manage thei
 
 ![This is a Sequence Diagram](/Final%20Project/Diagrams/Chores_ServiceLevelSequenceDiagrams.PNG "This is a Sequence Diagram")
 
-
 ### Updated Class Diagram
 
 ![This is a Class Diagram](/Final%20Project/Diagrams/UpdatedClassDiagram.PNG "This is a Class Diagram")
@@ -415,7 +414,7 @@ Adults whom do not have enough money to pay for an assistant to help manage thei
 
 ### Django Ninja API
 
-See api.py in the my proect folder for full code
+See api.py in the my project folder for full code
 
 ```{python}
 
@@ -513,7 +512,6 @@ class ChoreScheduleOut(Schema):
 	endafer: int = None								
 	assignment:  str	
 
-
 ```
 
 ### Updated ERD
@@ -521,11 +519,13 @@ class ChoreScheduleOut(Schema):
 
 ### Update CRUD Transactions
 
-```{python}
+See api.py in the my project folder for full code or Views section in Migrate to Django for full CRUD defitions in python
 
-
-
-```
+| Create | Read | Update | Delete |
+| @api.post("/user") def create_user(request, user: UsersIn) | @api.get("/user/{userID}", response=UsersOut) def get_user(request, userID: int) | @api.put("/user/{userID}") def update_user(request, userID: int, payload: UsersIn) | @api.delete("/user/{userID}") def delete_user(request, userID: int) |
+| @api.post("/fooditem") def create_fooditem(request, fooditem: FoodItemIn) | @api.get("/fooditem/{fooditemUID}", response=FoodItemOut) def get_fooditem(request, fooditemUID: int) | @api.put("/fooditem/{fooditemUID}") def update_fooditem(request, fooditemUID: int, payload: FoodItemIn) | @api.delete("/fooditem/{fooditemUID}") def delete_fooditem(request, fooditemUID: int) |
+| @api.post("/choreitem") def create_choreitem(request, choreitem: ChoreItemIn)| @api.get("/choreitem/{choreitemUID}", response=ChoreItemOut) def get_choreitem(request, choreitemUID: int) | @api.put("/choreitem/{choreitemUID}") def update_choreitem(request, choreitemUID: int, payload: ChoreItemIn) | @api.delete("/choreitem/{choreitemUID}") def delete_choreitem(request, choreitemUID: int)|
+| @api.post("/choreschedule") def create_choreschedule(request, choreschedule: ChoreScheduleIn) | @api.get("/choreschedule/{chorescheduleUID}", response=ChoreScheduleOut) def get_choreschedule(request, chorescheduleUID: int) | @api.put("/choreschedule/{chorescheduleUID}") def update_choreschedule(request, chorescheduleUID: int, payload: ChoreScheduleIn) | @api.delete("/choreschedule/{chorescheduleUID}") def delete_choreschedule(request, chorescheduleUID: int) |
 
 ------------------------------------------------------------------------------------------------
 
@@ -591,6 +591,8 @@ class ChoreSchedule(models.Model):
 
 ### Views 
 
+See api.py in the my project folder for full code
+
 ```{python}
 @api.post("/user")
 def create_user(request, user: UsersIn):
@@ -630,12 +632,12 @@ def delete_user(request, userID: int):
     user = get_object_or_404(User, id=userID)
     user.delete()
     return {"success": True, "user": user}
+
 @api.post("/fooditem")
 def create_fooditem(request, fooditem: FoodItemIn):
     fooditem_info = fooditem.dict()
     fooditem = FoodItem(**fooditem_info)
     fooditem = FoodItem.objects.create(fooditem)    
-
     return fooditem
 
 @api.get("/fooditem/{fooditemUID}", response=FoodItemOut)
@@ -699,7 +701,6 @@ def create_choreschedule(request, choreschedule: ChoreScheduleIn):
     choreschedule_info = choreschedule.dict()
     choreschedule = ChoreSchedule(**choreschedule_info)
     choreschedule = ChoreSchedule.objects.create(choreschedule)    
-
     return choreschedule
 
 @api.get("/choreschedule/{chorescheduleUID}", response=ChoreScheduleOut)
