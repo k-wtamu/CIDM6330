@@ -386,7 +386,7 @@ Adults whom do not have enough money to pay for an assistant to help manage thei
 
 ##### Class Diagram
 
-![This is a Class Diagram]
+![This is a Class Diagram](/Final%20Project/Diagrams/ClassDiagram.PNG "This is a Class Diagram")
 
 ##### Component Diagram
 
