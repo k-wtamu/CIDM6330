@@ -36,7 +36,7 @@
  
 4. [Evolution 2: An updated API](#Updated-API)
 
-	*  You may use the Django REST Framwork or Django Ninja
+	*  [Django Ninja API](#Django-Ninja-API)
 
 	*  [Updated ERD](#Updated-ERD) 
 
