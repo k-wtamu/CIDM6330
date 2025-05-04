@@ -522,6 +522,7 @@ class ChoreScheduleOut(Schema):
 See api.py in the my project folder for full code or Views section in Migrate to Django for full CRUD defitions in python
 
 | Create | Read | Update | Delete |
+| ----------- | ----------- | ----------- | ----------- |
 | @api.post("/user") def create_user(request, user: UsersIn) | @api.get("/user/{userID}", response=UsersOut) def get_user(request, userID: int) | @api.put("/user/{userID}") def update_user(request, userID: int, payload: UsersIn) | @api.delete("/user/{userID}") def delete_user(request, userID: int) |
 | @api.post("/fooditem") def create_fooditem(request, fooditem: FoodItemIn) | @api.get("/fooditem/{fooditemUID}", response=FoodItemOut) def get_fooditem(request, fooditemUID: int) | @api.put("/fooditem/{fooditemUID}") def update_fooditem(request, fooditemUID: int, payload: FoodItemIn) | @api.delete("/fooditem/{fooditemUID}") def delete_fooditem(request, fooditemUID: int) |
 | @api.post("/choreitem") def create_choreitem(request, choreitem: ChoreItemIn)| @api.get("/choreitem/{choreitemUID}", response=ChoreItemOut) def get_choreitem(request, choreitemUID: int) | @api.put("/choreitem/{choreitemUID}") def update_choreitem(request, choreitemUID: int, payload: ChoreItemIn) | @api.delete("/choreitem/{choreitemUID}") def delete_choreitem(request, choreitemUID: int)|
