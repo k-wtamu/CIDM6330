@@ -11,13 +11,13 @@
 ## Contents
 
 1. [Introduction / Evolution 0: Domain Specification and UML Modeling](#Introduction)  
-	1. [Requirements statements](#Requirements-Statements)
+	* [Requirements statements](#Requirements-Statements)
 		* [User Stories](#User-Stories)
 		* [Use Cases](#Use-Cases)
 		* [Features](#Features)
 		* [Gherkin Validation](#Gherkin-Validation)
 
-	2. [Specifications](#Specifications)
+	* [Specifications](#Specifications)
 		* [Concept](#Concept)  
 		* [UX Notes](#UX-Notes)
 		* [Interfaces](#Interfaces) 
@@ -30,17 +30,17 @@
 			- [State Machine Diagram](#State-Machine-Diagram)
 
 3. [Evolution 1: An updated Requirements Specification](#Requirements-Specification)
-
-	1. [Entity Relationship Diagram](#Entity-Relationship-Diagram) 
-	2. [Additional Use Case Diagrams](#Service-Level-Use-Case-Sequence-Diagrams)
+	*  [Entity Relationship Diagram](#Entity-Relationship-Diagram) 
+	*  [Additional Use Case Diagrams](#Service-Level-Use-Case-Sequence-Diagrams)
+	*  [Updated Class Diagram](#Updated-Class-Diagram)
  
 4. [Evolution 2: An updated API](#Updated-API)
 
-	1. You may use the Django REST Framwork or Django Ninja
+	*  You may use the Django REST Framwork or Django Ninja
 
-	2. [Updated ERD](#Updated-ERD) 
+	*  [Updated ERD](#Updated-ERD) 
 
-	3. [Update CRUD Transactions](#Update-CRUD-Transactions)
+	*  [Update CRUD Transactions](#Update-CRUD-Transactions)
 
 5. [Evolution 3: Skipping](#Evolution-3)
 
@@ -403,6 +403,11 @@ Adults whom do not have enough money to pay for an assistant to help manage thei
 #### Feature: Cleaning chores/tasks Database (CD)
 
 ![This is a Sequence Diagram](/Final%20Project/Diagrams/Chores_ServiceLevelSequenceDiagrams.PNG "This is a Sequence Diagram")
+
+
+### Updated Class Diagram
+
+![This is a Class Diagram](/Final%20Project/Diagrams/UpdatedClassDiagram.PNG "This is a Class Diagram")
 
 ------------------------------------------------------------------------------------------------
 
