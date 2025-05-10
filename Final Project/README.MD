@@ -50,13 +50,9 @@
 	*  [Django Beyond CRUD](#Beyond-CRUD-Attempt)
 
 7. [Evolution 5: Full Django + Tests](#Full-Django-and-Tests)
-
-For DDD create a ubiquitous language glossary: https://thedomaindrivendesign.io/developing-the-ubiquitous-language/)
-For BDD create A Gherkin Notation expression for each test: https://cucumber.io/docs/gherkin/)
-For TDD create tests that correspond with your Gherkin Statements.
-With these you will create Django unittests that demonstrates three Use Cases of your system.  
-
-
+	* [DDD Ubiquitous Language Glossary](#DDD-Ubiquitous-Language-Glossary)
+	* [BDD Gherkin Notation Expressions](#BDD-Gherkin-Notation-Expressions)
+	* [TDD Corresponding Tests](#TDD-Corresponding-Tests)
 
 ------------------------------------------------------------------------------------------------
 
@@ -775,6 +771,16 @@ def list_fav_fooditem(request):# filters:FoodItem Query(fooditemfavorite == True
 ------------------------------------------------------------------------------------------------
 
 ## Full Django and Tests
+
+### DDD Ubiquitous Language Glossary
+
+
+
+### BDD Gherkin Notation Expressions
+
+
+
+### TDD Corresponding Tests
 
 
 
