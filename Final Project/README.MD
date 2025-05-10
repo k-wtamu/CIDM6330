@@ -47,6 +47,7 @@
 	*  [Django Urls](#URLs)
 	*  [Django APIs](#APIs)
 	*  [Django Schemas](#Schemas)
+	*  [Django Beyond CRUD](#Beyond CRUD Attempt)
 
 7. [Evolution 5: Full Django + Tests](#Full-Django-and-Tests)
 
@@ -748,6 +749,28 @@ def delete_choreschedule(request, chorescheduleUID: int):
 ### Schemas
 
 ![This is a image of the Schemas](/Final%20Project/Diagrams/Assignment4_API_Schemas.PNG "This is a image of the Schemas")
+
+### Beyond CRUD Attempt
+
+![This is a image of the Beyond CRUD Attempt](/Final%20Project/Diagrams/beyondCRUD.PNG "This is a image of Beyond CRUD Attempt")
+
+```
+# Beyond basic CRUD Statments - data aggregation/reporting 
+# Return number of food items that are favorited
+@router.get("/numfavoritefooditem/", response=FoodItemOut)
+def get_num_fav_fooditem(request):
+	allfooditem = FoodItem.objects.all()
+	numfavfooditem = sum(1 for item in allfooditem if FoodItem.fooditemfavorite == True)
+	return {"count": numfavfooditem}
+
+# Return a list of all items that are favorited
+@router.get("/listfavoritefooditem", response=list[FoodItemOut])
+def list_fav_fooditem(request):# filters:FoodItem Query(fooditemfavorite == True) ):
+	listfavfooditem = FoodItem.objects.filter(FoodItem.fooditemfavorite == True)
+	#	allfooditem = FoodItem.objects.all()
+	#	allfooditem if FoodItem.fooditemfavorite == True
+	return listfavfooditem
+```
 
 ------------------------------------------------------------------------------------------------
 
