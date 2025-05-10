@@ -45,6 +45,8 @@
 	*  [Django Data Models](#Data-Models)
 	*  [Django Views](#Views) 
 	*  [Django Urls](#URLs)
+	*  [Django APIs](#APIs)
+	*  [Django Schemas](#Schemas)
 
 7. [Evolution 5: Full Django + Tests](#Full-Django-and-Tests)
 
@@ -738,6 +740,14 @@ def delete_choreschedule(request, chorescheduleUID: int):
 * /choreschedule
 * /choreschedule/{chorescheduleUID}
 
+
+### APIs
+
+![This is a image of API Options](/Final%20Project/Diagrams/Assignment4_API.PNG "This is a image of API Options")
+
+### Schemas
+
+![This is a image of the Schemas](/Final%20Project/Diagrams/Assignment4_API_Schemas.PNG "This is a image of the Schemas")
 
 ------------------------------------------------------------------------------------------------
 
