@@ -865,5 +865,113 @@ app.conf.beat_schedule = {
 
 #### Basic Tests
 
+##### Name: Test if Enter new Food Item was successful 
+##### Identifier: UC-1
+##### Covers the following Gherkin Statements:
+**Feature: Store new food items in data structure/database** 
+*Scenario 1: Valid food item name non-duplicate entry* 
+Given: The user has selected to enter in a food item name
+And the name does not already appear in the inventory
+When: User enters a item name with character length is greater than 3
+And character length is less than 50
+Then: Food item name check against inventory list passes
+And Food item name is saved into inventory as a new record
+And User is given a visual confirmation that the item is saved
+*Scenario 2: Valid food item name duplicate entry - initial submission* 
+Given: The user has selected to enter in a food item name
+And the name already appear in the active inventory (Non archived/consumed)
+When: User enters a item name with character length is greater than 3
+And character length is less than 50
+Then: Food item name check against inventory list fails
+And User is given a choice to add new duplicate item or cancel adding a duplicate food item
+*Scenario 3: Invalid food item name - too few characters*
+Given: The user has selected to enter in a food item name
+And the name does not already appear in the inventory
+When: User enters a item name with character length is less than 3
+Then: User is given a visual invalid Food Name warning
+*Scenario 4: Invalid food item name - too many characters*
+Given: The user has selected to enter in a food item name
+And the name does not already appear in the inventory
+When: User enters a item name with character length is greater than 50
+Then: User is given a visual invalid Food Name warning
+##### Unit test Code
+'''
+class UseCase1(TestCase):
+    def setUp(self):
+        # Setup run before every test method.
+        pass
+        self.factory = RequestFactory()
+        self.user = User.objects.create_user(
+            userID= 1, username="Jane", birthdate= datetime.date(1999, 1, 1) , usericon = "Star", email="janedoe@gmail.com"
+        )
+        self.user2 = User.objects.create_user(
+            userID= 2, username="Jhon", birthdate= datetime.date(1980, 2, 2), usericon = 2 , email="jhondoe@gmail.com"
+        )
+
+    def test_fooditem_that_will_pass(self):
+        # Create an instance of a GET request.
+        request = self.factory.get("/user")
+        request.user = self.user
+        self.assertEqual(response.status_code, 200)
+        print("Method: food item was entered properly - pass")
+        time.sleep(30)
+
+    def test_fooditem_that_will_fail(self):
+        request = self.factory.get("/user")
+        request.user = self.user2
+        self.assertNOTEqual(response.status_code, 200)
+        print("Method: food item was NOT entered properly - fail")
+        time.sleep(30) # wait so I can see the test output
+'''
+
 #### Advanced Tests for Beyond CRUD API and Gherkin Expressions 
 
+##### Name: Check get_num_fav_fooditem returns a int value 
+##### Identifier: UC-2
+##### New Gherkin Statment:
+**Feature: Retrieve information on food items in data structure/database** 
+*Scenario 1: System does not track favorited items correctly*
+Given: The user has selected to retrieve a count of favorited food items
+When: The system does not count correctly
+And does not store result as an integer
+Then: The count of number of favorited Food items fails
+And User is notified of an error
+##### Unit test Code
+'''
+class UseCase2(TestCase):
+    def setUp(self):
+        # Setup run before every test method.
+        pass
+        self.client = APIClient()
+        self.url = reverse('http://127.0.0.1:8000/api/numfavoritefooditem/')  # numfavfooditem url
+		
+	def test_api_output_type(self):
+        response = self.client.get(self.url)
+        self.assertEqual(response.status_code, status.HTTP_200_OK)
+		
+		self.assertIsInstance(response.data, int) # Check if output is a int
+'''
+
+##### Name: Check list_fav_fooditem returns a list  
+##### Identifier: UC-3
+##### New Gherkin Statment:
+**Feature: Retrieve information on food items in data structure/database** 
+*Scenario 2: System does not provide list of favorited food items*
+Given: The user has selected to retrieve a list of all their favorited food items
+When: The system does not store the food items correctly
+Then: The action of creating a list of favorited food items fails
+And User is notified of an error
+##### Unit test Code
+'''
+class UseCase3(TestCase):
+    def setUp(self):
+        # Setup run before every test method.
+        pass
+        self.client = APIClient()
+        self.url = reverse('http://127.0.0.1:8000/api/listfavoritefooditem/')  # list_fav_fooditem url
+		
+	def test_api_output_type2(self):
+        response = self.client.get(self.url)
+        self.assertEqual(response.status_code, status.HTTP_200_OK)	
+		self.assertIsInstance(response.data, list) # Check if output is a list
+'''
