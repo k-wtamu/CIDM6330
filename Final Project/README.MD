@@ -51,7 +51,7 @@
 
 7. [Evolution 5: Full Django + Tests](#Full-Django-and-Tests)
 	* [DDD Ubiquitous Language Glossary](#DDD-Ubiquitous-Language-Glossary)
-	* [BDD Gherkin Notation Expressions](#BDD-Gherkin-Notation-Expressions)
+	* [BDD Event Driven Gherkin Notation Expressions](#BDD-Event-Driven-Gherkin-Notation-Expressions)
 	* [TDD Corresponding Tests](#TDD-Corresponding-Tests)
 
 ------------------------------------------------------------------------------------------------
@@ -796,7 +796,7 @@ def list_fav_fooditem(request):# filters:FoodItem Query(fooditemfavorite == True
 |   UID  |  Unique Identifier (UID) is a string, either numeric or alphanumeric, that uniquely identifies an entity within a system.   |  This is a AutoField within this system.  |
 | Credentials  |  Information that identifies an account and keeps it secure.  |  Username or useremail are used as credentials, used to ensure the system knows who's information to search and display.  |
 
-### BDD Gherkin Notation Expressions
+### BDD Event Driven Gherkin Notation Expressions
 
 ####  As a user of the basic home management system I would like to recieve a welcome email
 
@@ -876,7 +876,7 @@ app.conf.beat_schedule = {
 
 ##### Covers the following Gherkin Statements:
 
-**Feature: Store new food items in data structure/database** 
+##### Feature: Store new food items in data structure/database
 
 *Scenario 1: Valid food item name non-duplicate entry*  
 
@@ -928,7 +928,7 @@ When: User enters a item name with character length is greater than 50
 
 Then: User is given a visual invalid Food Name warning
 
-##### Unit test Code
+##### Unit Test Code
 
 ```python
 
@@ -968,7 +968,7 @@ class UseCase1(TestCase):
 
 ##### New Gherkin Statment:
 
-**Feature: Retrieve information on food items in data structure/database** 
+#####Feature: Retrieve information on food items in data structure/database
 
 *Scenario 1: System does not track favorited items correctly*
 
@@ -982,7 +982,7 @@ Then: The count of number of favorited Food items fails
 
 And User is notified of an error
 
-##### Unit test Code
+##### Unit Test Code
 
 ```python
 class UseCase2(TestCase):
@@ -1005,7 +1005,7 @@ class UseCase2(TestCase):
 
 ##### New Gherkin Statment:
 
-**Feature: Retrieve information on food items in data structure/database** 
+#####Feature: Retrieve information on food items in data structure/database 
 
 *Scenario 2: System does not provide list of favorited food items*
 
@@ -1017,7 +1017,7 @@ Then: The action of creating a list of favorited food items fails
 
 And User is notified of an error
 
-##### Unit test Code
+##### Unit Test Code
 
 ```python
 class UseCase3(TestCase):
