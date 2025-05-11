@@ -828,9 +828,9 @@ def test_task_initalSignup(userID):
 @shared_task
 def send_monthly_food_avail(FoodItem, userID, fooditemstatus == "In Stock"):
     print(f"Sending monthly list of available food items: {datetime.now()}")
-	# logic for filtering list
+# logic for filtering list
 	availfoodlist = [item for item in FoodItem if eval(FoodItem.objects.filter(FoodItem.fooditemstatus == "In Stock"))]
-    # email sending logic here
+# logic for email sending
         try:
             user = User.objects.get(pk=userID)
             send_mail(
@@ -845,7 +845,7 @@ def send_monthly_food_avail(FoodItem, userID, fooditemstatus == "In Stock"):
         except User.DoesNotExist:
              return f"User with id {userID} not found."
         except requests.exceptions.RequestException as e:
-			
+# logic for schedule			
 app.conf.beat_schedule = {
     'send-monthly-reminder': {
         'task': 'send_monthly_reminder',
