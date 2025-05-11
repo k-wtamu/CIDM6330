@@ -866,9 +866,9 @@ app.conf.beat_schedule = {
 
 ### TDD Corresponding Tests
 
-#### Built-in Tests & import statements - can be found in tests.py in the jobs folder
+#### 1) Built-in Tests & import statements - can be found in tests.py in the jobs folder
 
-#### Basic Tests
+#### 2) Basic Tests
 
 ##### Name: Test if Enter new Food Item was successful 
 
@@ -960,7 +960,7 @@ class UseCase1(TestCase):
         time.sleep(30) # wait so I can see the test output
 ```
 
-#### Advanced Tests for Beyond CRUD API and Gherkin Expressions 
+#### 3)Advanced Tests for Beyond CRUD API and Gherkin Expressions 
 
 ##### Name: Check get_num_fav_fooditem returns a int value 
 
@@ -968,7 +968,7 @@ class UseCase1(TestCase):
 
 ##### New Gherkin Statment:
 
-#####Feature: Retrieve information on food items in data structure/database
+##### Feature: Retrieve information on food items in data structure/database
 
 *Scenario 1: System does not track favorited items correctly*
 
@@ -1005,7 +1005,7 @@ class UseCase2(TestCase):
 
 ##### New Gherkin Statment:
 
-#####Feature: Retrieve information on food items in data structure/database 
+##### Feature: Retrieve information on food items in data structure/database 
 
 *Scenario 2: System does not provide list of favorited food items*
 
