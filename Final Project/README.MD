@@ -866,8 +866,11 @@ app.conf.beat_schedule = {
 #### Basic Tests
 
 ##### Name: Test if Enter new Food Item was successful 
+
 ##### Identifier: UC-1
+
 ##### Covers the following Gherkin Statements:
+
 **Feature: Store new food items in data structure/database** 
 *Scenario 1: Valid food item name non-duplicate entry* 
 Given: The user has selected to enter in a food item name
@@ -894,7 +897,9 @@ Given: The user has selected to enter in a food item name
 And the name does not already appear in the inventory
 When: User enters a item name with character length is greater than 50
 Then: User is given a visual invalid Food Name warning
+
 ##### Unit test Code
+
 '''
 class UseCase1(TestCase):
     def setUp(self):
@@ -927,8 +932,11 @@ class UseCase1(TestCase):
 #### Advanced Tests for Beyond CRUD API and Gherkin Expressions 
 
 ##### Name: Check get_num_fav_fooditem returns a int value 
+
 ##### Identifier: UC-2
+
 ##### New Gherkin Statment:
+
 **Feature: Retrieve information on food items in data structure/database** 
 *Scenario 1: System does not track favorited items correctly*
 Given: The user has selected to retrieve a count of favorited food items
@@ -936,7 +944,9 @@ When: The system does not count correctly
 And does not store result as an integer
 Then: The count of number of favorited Food items fails
 And User is notified of an error
+
 ##### Unit test Code
+
 '''
 class UseCase2(TestCase):
     def setUp(self):
@@ -953,15 +963,20 @@ class UseCase2(TestCase):
 '''
 
 ##### Name: Check list_fav_fooditem returns a list  
+
 ##### Identifier: UC-3
+
 ##### New Gherkin Statment:
+
 **Feature: Retrieve information on food items in data structure/database** 
 *Scenario 2: System does not provide list of favorited food items*
 Given: The user has selected to retrieve a list of all their favorited food items
 When: The system does not store the food items correctly
 Then: The action of creating a list of favorited food items fails
 And User is notified of an error
+
 ##### Unit test Code
+
 '''
 class UseCase3(TestCase):
     def setUp(self):
