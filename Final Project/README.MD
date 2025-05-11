@@ -412,7 +412,7 @@ Adults whom do not have enough money to pay for an assistant to help manage thei
 
 See api.py in the my project folder for full code
 
-```{python}
+```python
 
 api = NinjaAPI()
 
@@ -539,7 +539,8 @@ Note: This Evolution became irrelevant once we went to a monolith like Djanog wi
 
 See Models.py
 
-```{python}
+```python
+
 from django.db import models
 
 class User(models.Model):
@@ -591,7 +592,8 @@ class ChoreSchedule(models.Model):
 
 See api.py in the my project folder for full code
 
-```{python}
+```python
+
 @api.post("/user")
 def create_user(request, user: UsersIn):
     user_info = user.dict()
@@ -750,7 +752,8 @@ def delete_choreschedule(request, chorescheduleUID: int):
 
 ![This is a image of the Beyond CRUD Attempt](/Final%20Project/Diagrams/beyondCRUD.PNG "This is a image of Beyond CRUD Attempt")
 
-```{python}
+```python
+
 # Beyond basic CRUD Statments - data aggregation/reporting 
 # Return number of food items that are favorited
 @router.get("/numfavoritefooditem/", response=FoodItemOut)
@@ -797,7 +800,8 @@ def list_fav_fooditem(request):# filters:FoodItem Query(fooditemfavorite == True
 
 ####  As a user of the basic home management system I would like to recieve a welcome email
 
-```{python}
+```python
+
 @shared_task
 def test_task_initalSignup(userID):
         # Sends a welcome email to a newly registered user.
@@ -824,7 +828,8 @@ def test_task_initalSignup(userID):
 
 #### As a user of the basic home management system I would like at the begining of the month to get a list of all current food items stored in the system
 
-```{python}
+```python
+
 @shared_task
 def send_monthly_food_avail(FoodItem, userID, fooditemstatus = "In Stock"):
     print(f"Sending monthly list of available food items: {datetime.now()}")
@@ -925,7 +930,8 @@ Then: User is given a visual invalid Food Name warning
 
 ##### Unit test Code
 
-'''{python}
+```python
+
 class UseCase1(TestCase):
     def setUp(self):
         # Setup run before every test method.
@@ -952,7 +958,7 @@ class UseCase1(TestCase):
         self.assertNOTEqual(response.status_code, 200)
         print("Method: food item was NOT entered properly - fail")
         time.sleep(30) # wait so I can see the test output
-'''
+```
 
 #### Advanced Tests for Beyond CRUD API and Gherkin Expressions 
 
@@ -978,7 +984,7 @@ And User is notified of an error
 
 ##### Unit test Code
 
-'''{python}
+```python
 class UseCase2(TestCase):
     def setUp(self):
         # Setup run before every test method.
@@ -991,7 +997,7 @@ class UseCase2(TestCase):
         self.assertEqual(response.status_code, status.HTTP_200_OK)
 		
 		self.assertIsInstance(response.data, int) # Check if output is a int
-'''
+```
 
 ##### Name: Check list_fav_fooditem returns a list  
 
@@ -1013,7 +1019,7 @@ And User is notified of an error
 
 ##### Unit test Code
 
-'''{python}
+```python
 class UseCase3(TestCase):
     def setUp(self):
         # Setup run before every test method.
@@ -1025,4 +1031,4 @@ class UseCase3(TestCase):
         response = self.client.get(self.url)
         self.assertEqual(response.status_code, status.HTTP_200_OK)	
 		self.assertIsInstance(response.data, list) # Check if output is a list
-'''
+```
