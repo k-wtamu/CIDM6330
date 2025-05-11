@@ -789,9 +789,9 @@ def list_fav_fooditem(request):# filters:FoodItem Query(fooditemfavorite == True
 | Favorite  |  Item regarded with special favor or preference.   | Bool field, a food item can be marked as a favorite if fooditemfavorite = True.   |
 | Reminder  | Notification to user by email.   |   Reminder to wash the car by 2025, 5, 10. |
 | Expiration date    |  The last date that a product, as food, should be used before it is considered spoiled or ineffective, usually specified on the label or package.   | Organized by year, month, day: 2025, 5, 10.   |
-| Notes | Short descriptive or summarized details on a chore or food item.  |  For food items: Mafaldine Pasta - Long, flat ribbons with ruffled edges, perfect for holding sauce. Goes great with ground meat. or a For chore items:  eminder to vacuum stairs with special attachment. |
+| Notes | Short descriptive or summarized details on a chore or food item.  |  For food items: Mafaldine Pasta - Long, flat ribbons with ruffled edges, perfect for holding sauce. Goes great with ground meat. or a For chore items:  reminder to vacuum stairs with special attachment. |
 |   UID  |  Unique Identifier (UID) is a string, either numeric or alphanumeric, that uniquely identifies an entity within a system.   |  This is a AutoField within this system.  |
-| Credentials  |  Information that identifies an account and keeps it secure.  |  Username or useremail are used as credentials, used to ensure the system knows whos information to search and display.  |
+| Credentials  |  Information that identifies an account and keeps it secure.  |  Username or useremail are used as credentials, used to ensure the system knows who's information to search and display.  |
 
 ### BDD Gherkin Notation Expressions
 
@@ -861,6 +861,6 @@ app.conf.beat_schedule = {
 
 ### TDD Corresponding Tests
 
-
-
+#### Built-in Tests & import statements - can be found in tests.py in the jobs folder
+#### Basic Tests
 
