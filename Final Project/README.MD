@@ -826,25 +826,29 @@ def test_task_initalSignup(userID):
 
 ```
 @shared_task
-def send_monthly_food_avail(FoodItem, userID, fooditemstatus == "In Stock"):
+def send_monthly_food_avail(FoodItem, userID, fooditemstatus = "In Stock"):
     print(f"Sending monthly list of available food items: {datetime.now()}")
 # logic for filtering list
-	availfoodlist = [item for item in FoodItem if eval(FoodItem.objects.filter(FoodItem.fooditemstatus == "In Stock"))]
-# logic for email sending
-        try:
-            user = User.objects.get(pk=userID)
-            send_mail(
-                'Monthly list of available food items!',
-                f'Hi {user.username}, here is your monthly list of available food items!',
-                'noreply@example.com',
-                [user.email],
-                fail_silently=False, 
-				availfoodlist,
-            )
-            return f"Monthly available food item list email sent to user {user.username}"
-        except User.DoesNotExist:
-             return f"User with id {userID} not found."
-        except requests.exceptions.RequestException as e:
+    availfoodlist = [item for item in FoodItem if eval(FoodItem.objects.filter(FoodItem.fooditemstatus == "In Stock"))]
+# email sending logic here
+    try:
+        user = User.objects.get(pk=userID)
+        send_mail(
+            'Monthly list of available food items!',
+            f'Hi {user.username}, here is your monthly list of available food items! {availfoodlist}',
+            'noreply@example.com',
+            [user.email],
+            fail_silently=False,
+        )
+        return f"Monthly available food item list email sent to user {user.username}"
+    except User.DoesNotExist:
+         return f"User with id {userID} not found."
+    except requests.exceptions.RequestException as e:
+    # Handle API request exceptions
+     print(f"Error - Handle API request exceptions: {e}")
+    except Exception as e:
+    # Handle other exceptions
+         print(f"Error - other exceptions: {e}")
 # logic for schedule			
 app.conf.beat_schedule = {
     'send-monthly-reminder': {
