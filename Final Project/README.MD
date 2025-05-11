@@ -781,7 +781,7 @@ def list_fav_fooditem(request):# filters:FoodItem Query(fooditemfavorite == True
 | Icon   |  A picture or symbol that appears on a screen and is used to represent a user account.  |  Star, Flower, Animal.   |
 | Email   | An address at which a person can receive email messages.  |  name@domain.com  |
 | Phone number   | A set of figures identifying the telephone of a particular subscriber, and used in making connections to that telephone.  |  10 integers (between 0 and 9).  |
-| Status   |  Gives information about the food or chore item.  |  For food items: consumed, disposed of, or in current inventory. For chore items: scheduled, late, or completed.  |
+| Status   |  Gives information about the food or chore item.  |  For food items: consumed, disposed of, or in stock. For chore items: scheduled, late, or completed.  |
 | Location   |  A place within the house the food is stored or where the chore has to be completed.   | For food items: Refrigerator, Freezer, Pantry. For chore items: Master Bedroom, Kids Bedroom, Spare Bedroom, Living Room, Movie Room, Office, Kitchen, Garage, etc.  |
 | Priority   | Ranking.   | Used for chore items for users to categorize by ranking which chores are most or least important.   |
 | Item   |   Can be used to describe a food item or a chore item.   | For food items: banana, etc. or a For chore items: laundry, sweep, mop, vacuum, homework, dishes etc.  |
