@@ -750,7 +750,7 @@ def delete_choreschedule(request, chorescheduleUID: int):
 
 ![This is a image of the Beyond CRUD Attempt](/Final%20Project/Diagrams/beyondCRUD.PNG "This is a image of Beyond CRUD Attempt")
 
-```
+```{python}
 # Beyond basic CRUD Statments - data aggregation/reporting 
 # Return number of food items that are favorited
 @router.get("/numfavoritefooditem/", response=FoodItemOut)
@@ -797,7 +797,7 @@ def list_fav_fooditem(request):# filters:FoodItem Query(fooditemfavorite == True
 
 ####  As a user of the basic home management system I would like to recieve a welcome email
 
-```
+```{python}
 @shared_task
 def test_task_initalSignup(userID):
         # Sends a welcome email to a newly registered user.
@@ -824,7 +824,7 @@ def test_task_initalSignup(userID):
 
 #### As a user of the basic home management system I would like at the begining of the month to get a list of all current food items stored in the system
 
-```
+```{python}
 @shared_task
 def send_monthly_food_avail(FoodItem, userID, fooditemstatus = "In Stock"):
     print(f"Sending monthly list of available food items: {datetime.now()}")
@@ -872,35 +872,60 @@ app.conf.beat_schedule = {
 ##### Covers the following Gherkin Statements:
 
 **Feature: Store new food items in data structure/database** 
-*Scenario 1: Valid food item name non-duplicate entry* 
+
+*Scenario 1: Valid food item name non-duplicate entry*  
+
 Given: The user has selected to enter in a food item name
+
 And the name does not already appear in the inventory
+
 When: User enters a item name with character length is greater than 3
+
 And character length is less than 50
+
 Then: Food item name check against inventory list passes
+
 And Food item name is saved into inventory as a new record
+
 And User is given a visual confirmation that the item is saved
+
 *Scenario 2: Valid food item name duplicate entry - initial submission* 
+
 Given: The user has selected to enter in a food item name
+
 And the name already appear in the active inventory (Non archived/consumed)
+
 When: User enters a item name with character length is greater than 3
+
 And character length is less than 50
+
 Then: Food item name check against inventory list fails
+
 And User is given a choice to add new duplicate item or cancel adding a duplicate food item
+
 *Scenario 3: Invalid food item name - too few characters*
+
 Given: The user has selected to enter in a food item name
+
 And the name does not already appear in the inventory
+
 When: User enters a item name with character length is less than 3
+
 Then: User is given a visual invalid Food Name warning
+
 *Scenario 4: Invalid food item name - too many characters*
+
 Given: The user has selected to enter in a food item name
+
 And the name does not already appear in the inventory
+
 When: User enters a item name with character length is greater than 50
+
 Then: User is given a visual invalid Food Name warning
 
 ##### Unit test Code
 
-'''
+'''{python}
 class UseCase1(TestCase):
     def setUp(self):
         # Setup run before every test method.
@@ -938,16 +963,22 @@ class UseCase1(TestCase):
 ##### New Gherkin Statment:
 
 **Feature: Retrieve information on food items in data structure/database** 
+
 *Scenario 1: System does not track favorited items correctly*
+
 Given: The user has selected to retrieve a count of favorited food items
+
 When: The system does not count correctly
+
 And does not store result as an integer
+
 Then: The count of number of favorited Food items fails
+
 And User is notified of an error
 
 ##### Unit test Code
 
-'''
+'''{python}
 class UseCase2(TestCase):
     def setUp(self):
         # Setup run before every test method.
@@ -969,15 +1000,20 @@ class UseCase2(TestCase):
 ##### New Gherkin Statment:
 
 **Feature: Retrieve information on food items in data structure/database** 
+
 *Scenario 2: System does not provide list of favorited food items*
+
 Given: The user has selected to retrieve a list of all their favorited food items
+
 When: The system does not store the food items correctly
+
 Then: The action of creating a list of favorited food items fails
+
 And User is notified of an error
 
 ##### Unit test Code
 
-'''
+'''{python}
 class UseCase3(TestCase):
     def setUp(self):
         # Setup run before every test method.
