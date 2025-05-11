@@ -774,6 +774,33 @@ def list_fav_fooditem(request):# filters:FoodItem Query(fooditemfavorite == True
 
 ### DDD Ubiquitous Language Glossary
 
+| Term | Definition | Example |
+| ----------- | ----------- | ----------- |
+| Date   | The day of the month or year as specified by a number, organized by year, month, day.    |  2025, 5, 10   |
+| User | A person who uses the home and chore management application | Kai, Amelia, Mia, Liam, Olivia, Rowan, Noah, James.  |
+| Icon   |  A picture or symbol that appears on a screen and is used to represent a user account.  |  Star, Flower, Animal   |
+| Email   | An address at which a person can receive email messages.  |  name@domain.com  |
+| Phone number   | A set of figures identifying the telephone of a particular subscriber, and used in making connections to that telephone.  |  10 integers (between 0 and 9)  |
+| Status   |  Gives information about the food or chore item  |  For food items: consumed, disposed of, or in current inventory. For chore items: scheduled, late, or completed.  |
+| Location   |  A place within the house the food is stored or where the chore has to be completed.   | For food items: Refrigerator, Freezer, Pantry. For chore items: Master Bedroom, Kids Bedroom, Spare Bedroom, Living Room, Movie Room, Office, Kitchen, Garage, etc.  |
+| Priority   | Ranking   | Used for chore items for users to categorize by ranking which chores are most or least important.   |
+| Item   |   Can be used to describe a food item or a chore item.   | For food items: banana, etc. or a For chore items: laundry, sweep, mop, vacuum, homework, dishes etc.  |
+| Schedule   |  A table that tracks time, notification, and status details of chore items. Tracks planned (due) and actual completion dates.  |  Recurring: Daily, weekly, monthly, or quarterly tasks , or on a specific date.  |
+| Favorite  |  Item regarded with special favor or preference.   | Bool field, a food item can be marked as a favorite if fooditemfavorite = True   |
+| Reminder  | Notification to user by email   |   Reminder to wash the car by 2025, 5, 10 |
+| Expiration date    |  The last date that a product, as food, should be used before it is considered spoiled or ineffective, usually specified on the label or package   | Organized by year, month, day: 2025, 5, 10.   |
+| Notes | Short descriptive or summarized details on a chore or food item.  |  For food items: Mafaldine Pasta - Long, flat ribbons with ruffled edges, perfect for holding sauce. Goes great with ground meat. or a For chore items:  eminder to vacuum stairs with special attachment. |
+|   UID  |  Unique Identifier (UID) is a string, either numeric or alphanumeric, that uniquely identifies an entity within a system.   |  This is a AutoField within this system  |
+| Credentials  |  Information that identifies an account and keeps it secure.  |  Username or useremail are used as credentials, used to ensure the system knows whos information to search and display.  |
+
+
+
+
+
+statuses include 
+stand alone events or repeat tasks
+ 
+Days of Week | Start with 
 
 
 ### BDD Gherkin Notation Expressions
